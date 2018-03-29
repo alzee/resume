@@ -21,16 +21,32 @@ h1.d-block{
 img{
 	width: 150px;
 }
+#chlang{
+	top: 0;
+	right: 1rem;
+}
+/*
+.btn-light, .bg-light{
+	background-color: #eef1f5 !important;
+}
+*/
 </style>
 </head>
 <body>
-	<div class="text-center mt-4">
-		<img class="rounded-circle mb-2" src="me.jpg">
-		<h1 id="name"></h1>
-		<h5 id="role"></h5>
-	</div>
+	<section class="container position-relative">
+		<div class="text-center mt-4">
+			<img class="rounded-circle mb-2" src="me.jpg">
+			<h1 id="name"></h1>
+			<h5 id="role"></h5>
+		</div>
 
-	<section class="container">
+		<div class="position-absolute" id="chlang">
+			<button class="btn btn-light btn-sm dropdown-toggle"><span id="lang">中 文</span></button>
+			<div class="dropdown-menu">
+				<a class="dropdown-item" href="#">english</a>
+			</div>
+		</div>
+
 		<div class="bg-light rounded my-3 py-2 text-center">
 			<strong id="about_t"></strong>
 		</div>
@@ -55,7 +71,7 @@ img{
 			<strong id="skills_t"></strong>
 		</div>
 		<div>
-			<ul>
+			<ul class="pl-3">
 				<li id="skill1"></li>
 				<li id="skill2"></li>
 				<li id="skill3"></li>
