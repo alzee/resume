@@ -40,6 +40,11 @@ var dot = {
 		'zh': '开发环境： '
 	},
 	'devenv': 'vim & bash on Fedora 27',
+	'proglang_t': {
+		'en': 'language: ',
+		'zh': '语 言： '
+	},
+	'proglang': 'javascript, php, python, bash',
 	'location': {
 		'en': '',
 		'zh': '期望工作地： 远程、杭州、上海、十堰'
