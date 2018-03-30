@@ -39,7 +39,7 @@ var dot = {
 		'en': 'development environment: ',
 		'zh': '开发环境： '
 	},
-	'devenv': 'vim & bash on Fedora 27',
+	'devenv': 'vim + bash, Fedora 27',
 	'proglang_t': {
 		'en': 'language: ',
 		'zh': '语 言： '
