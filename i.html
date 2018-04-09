@@ -21,6 +21,9 @@ img{
 	top: 0;
 	right: 1rem;
 }
+#more svg{
+	width: 20px !important;
+}
 /*
 .btn-light, .bg-light{
 	background-color: #eef1f5 !important;
@@ -56,23 +59,41 @@ img{
 			</div>
 			{{/proglang}}
 		</div>
-		<div class="row">
-			<div class="col-md-6 text-center">
+		<div class="row mt-4" id="more">
+			<div class="col-md-6 px-md-5">
+				<i class="fas fa-code"></i>
+				<!--
 				<span>{{proglang_t}}</span>
+				-->
 				<span>{{#proglang}} {{name}} {{/proglang}}</span>
 			</div>
-			<div class="col-md-6 text-center">
+			<div class="col-md-6 px-md-5">
+				<i class="fas fa-desktop"></i>
+				<!--
 				<span>{{devenv_t}}</span>
+				-->
 				<span>{{devenv}}</span>
 			</div>
-			<div class="col-md-6 text-center">
-				{{location}}
+			<div class="col-md-6 px-md-5">
+				<i class="fas fa-heart"></i>
+				<!--
+				<span>{{location_t}}</span>
+				-->
+				<span>{{location}}</span>
 			</div>
-			<div class="col-md-6 text-center">
-				<i class="fas fa-link"></i> <span>{{site_t}}</span> <a class="text-dark" href="{{site}}">{{site}}</a>
+			<div class="col-md-6 px-md-5">
+				<i class="fas fa-link"></i>
+				<!--
+				<span>{{site_t}}</span>
+				-->
+				<a class="text-dark" href="{{site}}">{{site}}</a>
 			</div>
-			<div class="col-md-6 text-center">
-				<i class="fas fa-envelope"></i> <span>{{mail_t}}</span> <a class="text-dark" href="mailto:{{mail}}">{{mail}}</a>
+			<div class="col-md-6 px-md-5">
+				<i class="fas fa-envelope"></i>
+				<!--
+				<span>{{mail_t}}</span>
+				-->
+				<a class="text-dark" href="mailto:{{mail}}">{{mail}}</a>
 			</div>
 		</div>
 		
