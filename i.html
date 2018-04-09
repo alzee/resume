@@ -7,13 +7,9 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <meta name="keyword" content="">
-<title id="title">简 历</title>
+<title>{{title.zh}}</title>
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" type="text/css" media="" href="css/bootstrap.min.css">
-<!--external css-->
-<link rel="stylesheet" type="text/css" media="" href="">
-<!-- Custom styles for this template -->
-<link rel="stylesheet" type="text/css" media="" href="">
 <style>
 h1{
 	font-size: 2rem;
@@ -36,8 +32,8 @@ img{
 	<section class="container position-relative">
 		<div class="text-center mt-4">
 			<img class="rounded-circle mb-2" src="me.jpg">
-			<h1 id="name"></h1>
-			<h5 id="role"></h5>
+			<h1>{{name}}</h1>
+			<h5>{{role}}</h5>
 		</div>
 
 		<div class="position-absolute" id="chlang">
@@ -48,9 +44,10 @@ img{
 		</div>
 
 		<div class="bg-light rounded my-3 py-2 text-center">
-			<strong id="about_t"></strong>
+			<strong>{{about_t}}</strong>
 		</div>
-		<div class="mb-3" id="intro">
+		<div class="mb-3">
+			{{intro}}
 		</div>
 		<div class="row">
 			<div class="col-md">
@@ -76,20 +73,21 @@ img{
 		</div>
 		<div class="row">
 			<div class="col-md text-center">
-				<span id="proglang_t"></span> <span id="proglang"></span>
+				<span>{{proglang_t}}</span> <span>{{proglang}}</span>
 			</div>
 			<div class="col-md text-center">
-				<span id="devenv_t"></span> <span id="devenv"></span>
+				<span>{{devenv_t}}</span> <span>{{devenv}}</span>
 			</div>
-			<div class="col-md text-center" id="location">
+			<div class="col-md text-center">
+				{{location}}
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md text-center">
-				<i class="fas fa-link"></i> <span id="site_t"></span> <a class="text-dark" href="https://dotcra.com">https://dotcra.com</a>
+				<i class="fas fa-link"></i> <span>{{site_t}}</span> <a class="text-dark" href="{{site}}">{{site}}</a>
 			</div>
 			<div class="col-md text-center">
-				<i class="fas fa-envelope"></i> <span id="mail_t"></span> <a class="text-dark" href="mailto:job@dotcra.com">job@dotcra.com</a>
+				<i class="fas fa-envelope"></i> <span>{{mail_t}}</span> <a class="text-dark" href="mailto:{{mail}}">{{mail}}</a>
 			</div>
 		</div>
 		<div class="bg-light rounded my-3 py-2 text-center text">
@@ -147,16 +145,11 @@ img{
 	<footer>
 	</footer>
 
-	<!-- js placed at the end of the document so the pages load faster -->
-	<script src=""></script>
+
+	<script src="js/dot.js"></script>
+	<script src="js/mustache.min.js"></script>
 
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-
-	<!--common script for all pages-->
-	<script src="js/dot.js"></script>
-
-	<!--script for this page-->
-	<script src=""></script>
 
 	<noscript></noscript>
 </body>

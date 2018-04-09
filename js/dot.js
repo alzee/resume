@@ -53,10 +53,12 @@ var dot = {
 		'en': 'website: ',
 		'zh': '网 站： '
 	},
+	'site': 'https://dotcra.com',
 	'mail_t': {
 		'en': 'email: ',
 		'zh': '邮 箱： '
 	},
+	'mail': 'job@dotcra.com',
 	'skill1': {
 		'en': 'abc',
 		'zh': '城阙辅三秦，风烟望五津。与君离别意，同是宦游人。'
