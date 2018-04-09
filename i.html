@@ -7,7 +7,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <meta name="keyword" content="">
-<title>{{title.zh}}</title>
+<title id="title">{{title}}</title>
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" type="text/css" media="" href="css/bootstrap.min.css">
 <style>
@@ -29,18 +29,16 @@ img{
 </style>
 </head>
 <body>
-	<section class="container position-relative">
+	<section class="container position-relative" id="main">
 		<div class="text-center mt-4">
 			<img class="rounded-circle mb-2" src="me.jpg">
 			<h1>{{name}}</h1>
 			<h5>{{role}}</h5>
 		</div>
 
-		<div class="position-absolute" id="chlang">
-			<button class="btn btn-light btn-sm dropdown-toggle"><span id="lang">中 文</span></button>
-			<div class="dropdown-menu">
-				<a class="dropdown-item" href="#">english</a>
-			</div>
+		<div class="btn-group btn-group-sm position-absolute" id="chlang">
+			<button class="btn btn-light active">en</button>
+			<button class="btn btn-light">zh</button>
 		</div>
 
 		<div class="bg-light rounded my-3 py-2 text-center">
@@ -50,46 +48,34 @@ img{
 			{{intro}}
 		</div>
 		<div class="row">
-			<div class="col-md">
+			{{#proglang}}
+			<div class="col-md mb-1">
 				<div class="progress">
-					<div class="progress-bar w-50" id="">javascipt</div>
+					<div class="progress-bar" style="width: {{percent}}">{{name}}</div>
 				</div>
 			</div>
-			<div class="col-md">
-				<div class="progress">
-					<div class="progress-bar w-50" id="">php</div>
-				</div>
-			</div>
-			<div class="col-md">
-				<div class="progress">
-					<div class="progress-bar w-50" id="">python</div>
-				</div>
-			</div>
-			<div class="col-md">
-				<div class="progress">
-					<div class="progress-bar w-75" id="">bash</div>
-				</div>
-			</div>
+			{{/proglang}}
 		</div>
 		<div class="row">
-			<div class="col-md text-center">
-				<span>{{proglang_t}}</span> <span>{{proglang}}</span>
+			<div class="col-md-6 text-center">
+				<span>{{proglang_t}}</span>
+				<span>{{#proglang}} {{name}} {{/proglang}}</span>
 			</div>
-			<div class="col-md text-center">
-				<span>{{devenv_t}}</span> <span>{{devenv}}</span>
+			<div class="col-md-6 text-center">
+				<span>{{devenv_t}}</span>
+				<span>{{devenv}}</span>
 			</div>
-			<div class="col-md text-center">
+			<div class="col-md-6 text-center">
 				{{location}}
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md text-center">
+			<div class="col-md-6 text-center">
 				<i class="fas fa-link"></i> <span>{{site_t}}</span> <a class="text-dark" href="{{site}}">{{site}}</a>
 			</div>
-			<div class="col-md text-center">
+			<div class="col-md-6 text-center">
 				<i class="fas fa-envelope"></i> <span>{{mail_t}}</span> <a class="text-dark" href="mailto:{{mail}}">{{mail}}</a>
 			</div>
 		</div>
+		
 		<div class="bg-light rounded my-3 py-2 text-center text">
 			<strong>{{skills_t}}</strong>
 		</div>
@@ -118,22 +104,21 @@ img{
 			<strong>{{exp_t}}</strong>
 		</div>
 		<div>
-			<div id="exp1_t">
+			{{#exps}}
+			<div>
+				{{com}}
 			</div>
-			<div id="exp1">
+			<div>
+				{{job}}
 			</div>
-		</div>
-		<div>
-			<div id="exp2_t">
-			</div>
-			<div id="exp2">
-			</div>
+			{{/exps}}
 		</div>
 		
 		<div class="bg-light rounded my-3 py-2 text-center text">
 			<strong>{{edu_t}}</strong>
 		</div>
-		<div id="edu">
+		<div>
+			{{edu}}
 		</div>
 	</section>
 

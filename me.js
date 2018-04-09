@@ -9,14 +9,20 @@ var me = {
 		'exp_t': 'experiences',
 		'edu_t': 'education',
 		'intro': 'i am hahaha',
-		'devenv_t': 'development environment',
+		'devenv_t': 'devel env: ',
 		'devenv': 'vim + bash, Fedora 27',
-		'proglang_t': 'language',
-		'proglang': 'javascript, php, python, bash',
+		'proglang_t': 'language: ',
+		'proglang': ['javascript, php, python, bash'],
+		'proglang': [
+			{'name': 'javascript', 'percent': '60%'},
+			{'name': 'php', 'percent': '70%'},
+			{'name': 'python', 'percent': '40%'},
+			{'name': 'bash', 'percent': '80%'},
+		],
 		'location': 'would like: remote, startups, shanghai',
-		'site_t': 'website',
+		'site_t': 'website: ',
 		'site': 'https://dotcra.com',
-		'mail_t': 'email',
+		'mail_t': 'email: ',
 		'mail': 'job@dotcra.com',
 		'skills': [
 			'skill 1',
@@ -44,3 +50,10 @@ var me = {
 	'zh': {
 	}
 };
+
+var main = document.getElementById('main');
+var t = Mustache.render(main.innerHTML, me.en);
+main.innerHTML = t;
+
+var title = document.getElementById('title');
+title.innerText = Mustache.render(title.innerText, me.en);
