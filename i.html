@@ -7,50 +7,156 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <meta name="keyword" content="">
-<title></title>
+<title id="title">简 历</title>
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" type="text/css" media="" href="css/bootstrap.min.css">
 <!--external css-->
 <link rel="stylesheet" type="text/css" media="" href="">
 <!-- Custom styles for this template -->
 <link rel="stylesheet" type="text/css" media="" href="">
+<style>
+h1{
+	font-size: 2rem;
+}
+img{
+	width: 150px;
+}
+#chlang{
+	top: 0;
+	right: 1rem;
+}
+/*
+.btn-light, .bg-light{
+	background-color: #eef1f5 !important;
+}
+*/
+</style>
 </head>
 <body>
-	<header id="fuck">
-	</header>
+	<section class="container position-relative">
+		<div class="text-center mt-4">
+			<img class="rounded-circle mb-2" src="me.jpg">
+			<h1 id="name"></h1>
+			<h5 id="role"></h5>
+		</div>
 
-	<nav>
-	</nav>
+		<div class="position-absolute" id="chlang">
+			<button class="btn btn-light btn-sm dropdown-toggle"><span id="lang">中 文</span></button>
+			<div class="dropdown-menu">
+				<a class="dropdown-item" href="#">english</a>
+			</div>
+		</div>
 
-	<aside>
-	</aside>
+		<div class="bg-light rounded my-3 py-2 text-center">
+			<strong id="about_t"></strong>
+		</div>
+		<div class="mb-3" id="intro">
+		</div>
+		<div class="row">
+			<div class="col-md">
+				<div class="progress">
+					<div class="progress-bar w-50" id="">javascipt</div>
+				</div>
+			</div>
+			<div class="col-md">
+				<div class="progress">
+					<div class="progress-bar w-50" id="">php</div>
+				</div>
+			</div>
+			<div class="col-md">
+				<div class="progress">
+					<div class="progress-bar w-50" id="">python</div>
+				</div>
+			</div>
+			<div class="col-md">
+				<div class="progress">
+					<div class="progress-bar w-75" id="">bash</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md text-center">
+				<span id="proglang_t"></span> <span id="proglang"></span>
+			</div>
+			<div class="col-md text-center">
+				<span id="devenv_t"></span> <span id="devenv"></span>
+			</div>
+			<div class="col-md text-center" id="location">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md text-center">
+				<i class="fas fa-link"></i> <span id="site_t"></span> <a class="text-dark" href="https://dotcra.com">https://dotcra.com</a>
+			</div>
+			<div class="col-md text-center">
+				<i class="fas fa-envelope"></i> <span id="mail_t"></span> <a class="text-dark" href="mailto:job@dotcra.com">job@dotcra.com</a>
+			</div>
+		</div>
+		<div class="bg-light rounded my-3 py-2 text-center text">
+			<strong id="skills_t"></strong>
+		</div>
+		<div>
+			<ul class="pl-3">
+				<li id="skill1"></li>
+				<li id="skill2"></li>
+				<li id="skill3"></li>
+				<li id="skill4"></li>
+				<li id="skill5"></li>
+				<li id="skill6"></li>
+				<li id="skill7"></li>
+				<li id="skill8"></li>
+			</ul>
+		</div>
 
-	<section>
+		<div class="bg-light rounded my-3 py-2 text-center">
+			<strong id="sn_t"></strong>
+		</div>
+		<div class="d-md-flex justify-content-around">
+			<a class="btn btn-light mx-md-2 w-100" href="https://github.com/dotcra"><i class="fab fa-github"></i> github</a>
+			<a class="btn btn-light mx-md-2 w-100" href="https://stackoverflow.com/users/7714132/"><i class="fab fa-stack-overflow"></i> stack overflow</a>
+			<a class="btn btn-light mx-md-2 w-100" href="#">irc dotc@freenode</a>
+			<a class="btn btn-light mx-md-2 w-100" href="https://twitter.com/dotcraft"><i class="fab fa-twitter"></i> twitter</a>
+			<a class="btn btn-light mx-md-2 w-100" href="https://www.quora.com/profile/Dotcra"><i class="fab fa-quora"></i> quora</a>
+			<a class="btn btn-light mx-md-2 w-100" href="https://www.linkedin.com/in/dotcra/"><i class="fab fa-linkedin"></i> linkedin</a>
+			<a class="btn btn-light mx-md-2 w-100" href="#"><i class="fab fa-weixin"></i> weixin</a>
+		</div>
+
+		<div class="bg-light rounded my-3 py-2 text-center text">
+			<strong id="exp_t"></strong>
+		</div>
+		<div>
+			<div id="exp1_t">
+			</div>
+			<div id="exp1">
+			</div>
+		</div>
+		<div>
+			<div id="exp2_t">
+			</div>
+			<div id="exp2">
+			</div>
+		</div>
+		
+		<div class="bg-light rounded my-3 py-2 text-center text">
+			<strong id="edu_t"></strong>
+		</div>
+		<div id="edu">
+		</div>
 	</section>
 
 	<footer>
 	</footer>
 
-    <!-- js placed at the end of the document so the pages load faster -->
+	<!-- js placed at the end of the document so the pages load faster -->
+	<script src=""></script>
 
-<script src="js/mustache.min.js"></script>
-<script id="tpl" type="x-tmpl">
-	{{.}}
-</script>
-<script>
-	var a = document.getElementById('tpl').innerHTML;
-	var b = document.getElementById('fuck');
-	var c = {'name':'jess', 'age':'26'};
-	var c = ['name','jess', 'age','26'];
-	var o = Mustache.render(a,c)
-	b.innerHTML = o;
-	
-	
-</script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
-    <!--common script for all pages-->
+	<!--common script for all pages-->
+	<script src="js/dot.js"></script>
 
-    <!--script for this page-->
+	<!--script for this page-->
+	<script src=""></script>
 
 	<noscript></noscript>
 </body>
