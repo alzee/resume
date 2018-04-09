@@ -14,19 +14,9 @@
 <link rel="stylesheet" type="text/css" media="" href="">
 <!-- Custom styles for this template -->
 <link rel="stylesheet" type="text/css" media="" href="">
-<script src="js/mustache.min.js"></script>
-	<script src="js/dot.js"></script>
-<script id="fuck" type="x-tmpl-mustache">
-Hello {{name.zh}}!
-</script>
-	<script>
-		var a = document.getElementById('fuck');
-		Mustache.render(a.innerHTML, dot);
-	</script>
 </head>
 <body>
-	<header id="">
-		{{name.zh}}
+	<header id="fuck">
 	</header>
 
 	<nav>
@@ -43,7 +33,20 @@ Hello {{name.zh}}!
 
     <!-- js placed at the end of the document so the pages load faster -->
 
-	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+<script src="js/mustache.min.js"></script>
+<script id="tpl" type="x-tmpl">
+	{{.}}
+</script>
+<script>
+	var a = document.getElementById('tpl').innerHTML;
+	var b = document.getElementById('fuck');
+	var c = {'name':'jess', 'age':'26'};
+	var c = ['name','jess', 'age','26'];
+	var o = Mustache.render(a,c)
+	b.innerHTML = o;
+	
+	
+</script>
 
     <!--common script for all pages-->
 
