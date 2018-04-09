@@ -62,8 +62,9 @@ img{
 		<div class="row">
 			{{#proglang}}
 			<div class="col-md mb-2">
-				<div class="progress">
-					<div class="progress-bar" style="width: {{percent}}">{{name}}</div>
+				<div class="progress position-relative">
+					<div class="progress-bar" style="width: {{percent}}"></div>
+					<span class="position-absolute text-center w-100">{{name}}</span>
 				</div>
 			</div>
 			{{/proglang}}
