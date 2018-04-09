@@ -87,7 +87,7 @@ var dot = {
 	},
 	'skill8': {
 		'en': 'skill 3',
-		'zh': '城阙辅三秦，风烟望五津。与君离别意，同是宦游人。'
+		'zh': '熟悉亚马逊 aws ，google cloud，Microsoft Azure'
 	},
 	'exp1_t': {
 		'en': '',
