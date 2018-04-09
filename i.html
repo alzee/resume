@@ -91,23 +91,18 @@ img{
 			</div>
 		</div>
 		<div class="bg-light rounded my-3 py-2 text-center text">
-			<strong id="skills_t"></strong>
+			<strong>{{skills_t}}</strong>
 		</div>
 		<div>
 			<ul class="pl-3">
-				<li id="skill1"></li>
-				<li id="skill2"></li>
-				<li id="skill3"></li>
-				<li id="skill4"></li>
-				<li id="skill5"></li>
-				<li id="skill6"></li>
-				<li id="skill7"></li>
-				<li id="skill8"></li>
+				{{#skills}}
+				<li>{{.}}</li>
+				{{/skills}}
 			</ul>
 		</div>
 
 		<div class="bg-light rounded my-3 py-2 text-center">
-			<strong id="sn_t"></strong>
+			<strong>{{sn_t}}</strong>
 		</div>
 		<div class="d-md-flex justify-content-around">
 			<a class="btn btn-light mx-md-2 w-100" href="https://github.com/dotcra"><i class="fab fa-github"></i> github</a>
@@ -120,7 +115,7 @@ img{
 		</div>
 
 		<div class="bg-light rounded my-3 py-2 text-center text">
-			<strong id="exp_t"></strong>
+			<strong>{{exp_t}}</strong>
 		</div>
 		<div>
 			<div id="exp1_t">
@@ -136,7 +131,7 @@ img{
 		</div>
 		
 		<div class="bg-light rounded my-3 py-2 text-center text">
-			<strong id="edu_t"></strong>
+			<strong>{{edu_t}}</strong>
 		</div>
 		<div id="edu">
 		</div>
@@ -146,8 +141,8 @@ img{
 	</footer>
 
 
-	<script src="js/dot.js"></script>
 	<script src="js/mustache.min.js"></script>
+	<script src="me.js"></script>
 
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
