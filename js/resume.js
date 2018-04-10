@@ -98,7 +98,8 @@
 		}
 	};
 
-	var lang = 'zh';
+	//var lang = 'zh';
+	var lang = (navigator.language || navigator.userLanguage).substr(0, 2);
 	var en = document.getElementById('en');
 	var zh = document.getElementById('zh');
 	en.addEventListener('click', ch);
