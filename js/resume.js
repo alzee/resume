@@ -1,5 +1,5 @@
 (function() {
-	var me = {
+	var resume = {
 		en: {
 			title: 'resume',
 			name: 'dot craft',
@@ -113,10 +113,10 @@
 		var tpl = document.getElementById('tpl');
 
 		var main = document.getElementById('main');
-		main.innerHTML = Mustache.render(tpl.innerHTML, me[lang]);
+		main.innerHTML = Mustache.render(tpl.innerHTML, resume[lang]);
 
 		var title = document.getElementById('title');
-		title.innerText = me[lang].title;
+		title.innerText = resume[lang].title;
 
 		en.classList.remove('active');
 		zh.classList.remove('active');
