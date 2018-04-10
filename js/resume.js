@@ -112,8 +112,11 @@
 			lang = this.innerText;
 		}
 		var tpl = document.getElementById('tpl');
+		
+		Mustache.parse(tpl.innerHTML);
 
 		var main = document.getElementById('main');
+		
 		main.innerHTML = Mustache.render(tpl.innerHTML, resume[lang]);
 
 		var title = document.getElementById('title');
