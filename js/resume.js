@@ -2,7 +2,7 @@
 	var resume = {
 		en: {
 			title: 'resume',
-			name: 'dot craft',
+			name: 'Art Tod',
 			role: 'full-stack developer, linux administrator',
 			about_t: 'about',
 			skills_t: 'skills',
@@ -11,7 +11,7 @@
 			edu_t: 'education',
 			intro: 'i am hahaha',
 			devenv_t: 'devel env: ',
-			devenv: 'vim + bash, Fedora 27',
+			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: 'language: ',
 			proglang: [
 				{name: 'javascript', percent: '60%'},
@@ -22,9 +22,9 @@
 			location_t: 'would like: ',
 			location: 'remote, startups, hangzhou, shanghai',
 			site_t: 'website: ',
-			site: 'https://dotcra.com',
+			site: 'https://ctod.net',
 			mail_t: 'email: ',
-			mail: 'job@dotcra.com',
+			mail: 'job@ctod.net',
 			skills: [
 				'skill 1',
 				'skill 2',
