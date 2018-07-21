@@ -1,7 +1,7 @@
 (function() {
 	var resume = {
 		en: {
-			title: 'resume',
+			title: 'résumé',
 			name: 'Art Tod',
 			role: 'full-stack developer, linux administrator',
 			about_t: 'about',
