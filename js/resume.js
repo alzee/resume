@@ -35,7 +35,7 @@
 			skills_t: 'skills',
 			skills: [
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇翻译',
-				'当地田协会员，完成多次马拉松赛事',
+				'当地田协会员，完成多次马拉松赛事；跑步结婚上头条',
 				'熟悉 AWS , GCP , Azure , Vultr , DigitalOcean 等云平台',
 				'git, composer, npm',
 				'ansible, docker, kvm, ',
