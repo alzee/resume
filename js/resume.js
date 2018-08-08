@@ -27,6 +27,7 @@
 				{name: 'bash', percent: '85%'},
 				{name: 'vue.js', percent: '60%'},
 				{name: 'symfony', percent: '60%'},
+				{name: 'bootstrap', percent: '85%'},
 			],
 			skills_t: 'skills',
 			skills: [
