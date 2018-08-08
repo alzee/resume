@@ -67,7 +67,7 @@
 			],
 			more_t : '更 多',
 			more: [
-					'崇尚命令行，只用 7 个 gui 软件: gimp, chrome, eog(image viewer), evince(pdf viewer), gnome-terminal, virtualbox, wireshark',
+					'崇尚命令行。用 bash + screen + vim 作 IDE ，用 nvlc 听歌，用 ImageMagick 压缩图片，用 nmcli 管理网络，用 transmission-remote BT，用 pacmd 切换耳机音响，用 gsettings 设置系统，用 oathtool 生成 OTP 动态密码，用 irssi 上 irc ，只玩 nethack 和 myman ，chrome 装 cVim 扩展……除 gimp, chrome, eog, evince, virtualbox, wireshark 以外，all in CLI 。',
 					'崇尚简洁',
 			],
 		},
