@@ -34,6 +34,4 @@ node_modules/
 *.swp
 
 # Pictures
-*.png
-*.jpg
 *.gif
