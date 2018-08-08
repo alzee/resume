@@ -61,9 +61,10 @@
 				{name: 'stack overflow', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
 				{name: 'xtod@freenode', link: '#'},
 				{name: 'twitter', link: 'https://twitter.com/arctod', fa: 'fab fa-twitter'},
+				{name: 'facebook', link: 'https://www.facebook.com/ArcTod', fa: 'fab fa-facebook'},
 				{name: 'quora', link: 'https://www.quora.com/profile/arctod', fa: 'fab fa-quora'},
 				{name: 'linkedin', link: 'https://www.linkedin.com/in/dotcra/', fa: 'fab fa-linkedin'},
-				{name: 'dotcra', link: '#', fa: 'fab fa-weixin'},
+				//{name: 'dotcra', link: '#', fa: 'fab fa-weixin'},
 			],
 			more_t : '更 多',
 			more: [
