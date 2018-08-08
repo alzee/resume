@@ -8,7 +8,7 @@
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash', fa: 'fas fa-code', title: 'language'},
 				{k: 'devenv', v: 'bash, screen, vim, fedora', fa: 'fas fa-desktop', title: 'devel env'},
-				{k: 'loc', v: 'remote, startups, hangzhou, shanghai', fa: 'fas fa-heart', title: 'would like'},
+				{k: 'loc', v: '远程，初创，杭州，上海', fa: 'fas fa-heart', title: 'would like'},
 				{k: 'site', v: 'https://xtod.net', fa: 'fas fa-link', link: 'https://xtod.net', title: 'website: '},
 				{k: 'mail', v: 'job@xtod.net', fa: 'fas fa-envelope', link: 'mailto:job@xtod.net', title: 'email: '},
 				{k: 'key', v: 'public key', fa: 'fas fa-key', link: 'https://xtod.net/xtod.pub'},
@@ -19,9 +19,9 @@
 			exp_t: '工作经历',
 			edu_t: '教育经历',
 			intro: '简练、忠信、好学、求真。擅长 Linux 系统工程，目前兴趣在 web 开发。主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈开发。具备团队组织协调能力。',
-			devenv_t: 'devel env: ',
+			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
-			proglang_t: 'language: ',
+			proglang_t: '语言： ',
 			proglang: [
 				{name: 'javascript', percent: '60%'},
 				{name: 'php', percent: '70%'},
@@ -55,7 +55,7 @@
 					job: 'i am goddamn ceo. Again'
 				}
 			],
-			edu: 'self-taught',
+			edu: '自学',
 			sns: [
 				{name: 'github', link: 'https://github.com/xtod', fa: 'fab fa-github'},
 				{name: 'stack overflow', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
@@ -64,6 +64,11 @@
 				{name: 'quora', link: 'https://www.quora.com/profile/arctod', fa: 'fab fa-quora'},
 				{name: 'linkedin', link: 'https://www.linkedin.com/in/dotcra/', fa: 'fab fa-linkedin'},
 				{name: 'dotcra', link: '#', fa: 'fab fa-weixin'},
+			],
+			more_t : '更 多',
+			more: [
+					'崇尚命令行，只用 7 个 gui 软件: gimp, chrome, eog(image viewer), evince(pdf viewer), gnome-terminal, virtualbox, wireshark',
+					'崇尚简洁',
 			],
 		},
 	};
@@ -77,23 +82,11 @@
 	resume.en.sn_t = 'social network';
 	resume.en.exp_t = 'experiences';
 	resume.en.edu_t = 'education';
-	resume.en.devenv_t = '开发环境: ';
-	resume.en.proglang_t = '语言： ';
-	resume.en.location_t = '工作期望： ';
-	resume.en.location = '远程，初创，杭州，上海';
-	resume.en.site_t = '网站： ';
-	resume.en.mail_t = '邮箱： ';
-	resume.en.exps = [
-				{
-					com: 'google, 2014-2016, ceo',
-					job: '我是ceo'
-				},
-				{
-					com: 'facebook, 2010-2013, ceo',
-					job: '我还是ceo.'
-				}
-			];
-	resume.en.edu = '自学';
+	resume.en.devenv_t = 'devel env: ';
+	resume.en.proglang_t = 'language: ';
+	//resume.en.about.loc.v= 'remote, startups, hangzhou, shanghai';
+	resume.en.edu = 'self-taught';
+	resume.en.more_t = 'more';
 
 	var lang = (navigator.language || navigator.userLanguage).substr(0, 2);
 	if (lang !== 'zh') lang = 'en';
