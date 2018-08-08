@@ -1,5 +1,5 @@
 (function() {
-	resume = {
+	var resume = {
 		en: {
 			title: 'résumé',
 			name: 'Arc Tod',
@@ -46,7 +46,16 @@
 					job: 'i am goddamn ceo. Again'
 				}
 			],
-			edu: 'self-taught'
+			edu: 'self-taught',
+			sns: [
+				{name: 'github', link: 'https://github.com/xtod', fa: 'fab fa-github'},
+				{name: 'stack overflow', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
+				{name: 'xtod@freenode', link: '#'},
+				{name: 'twitter', link: 'https://twitter.com/arctod', fa: 'fab fa-twitter'},
+				{name: 'quora', link: 'https://www.quora.com/profile/arctod', fa: 'fab fa-quora'},
+				{name: 'linkedin', link: 'https://www.linkedin.com/in/dotcra/', fa: 'fab fa-linkedin'},
+				{name: 'dotcra', link: '#', fa: 'fab fa-weixin'},
+			],
 		},
 	};
 	

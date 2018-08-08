@@ -120,13 +120,9 @@ img{
 			<strong>{{sn_t}}</strong>
 		</div>
 		<div class="d-md-flex justify-content-around">
-			<a class="btn btn-light mx-md-2 w-100" href="https://github.com/arctod"><i class="fab fa-github"></i> github</a>
-			<a class="btn btn-light mx-md-2 w-100" href="https://stackoverflow.com/users/7714132/"><i class="fab fa-stack-overflow"></i> stack overflow</a>
-			<a class="btn btn-light mx-md-2 w-100" href="#">irc ctod@freenode</a>
-			<a class="btn btn-light mx-md-2 w-100" href="https://twitter.com/arctod"><i class="fab fa-twitter"></i> twitter</a>
-			<a class="btn btn-light mx-md-2 w-100" href="https://www.quora.com/profile/Dotcra"><i class="fab fa-quora"></i> quora</a>
-			<a class="btn btn-light mx-md-2 w-100" href="https://www.linkedin.com/in/dotcra/"><i class="fab fa-linkedin"></i> linkedin</a>
-			<a class="btn btn-light mx-md-2 w-100" href="#"><i class="fab fa-weixin"></i> dotcra</a>
+				{{#sns}}
+			<a class="btn btn-light mx-md-2 w-100" href="{{link}}"><i class="{{fa}}"></i> {{name}}</a>
+				{{/sns}}
 		</div>
 
 		<div class="bg-light rounded my-3 py-2 text-center text">
