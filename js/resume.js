@@ -1,10 +1,10 @@
 (function() {
 	var resume = {
-		en: {
-			title: 'résumé',
-			name: 'Arc Tod',
-			role: 'full-stack developer, linux administrator',
-			about_t: 'about',
+		zh: {
+			title: '简 历',
+			name: '侯 斐',
+			role: 'web 全栈工程师，linux 系统工程师',
+			about_t: '关 于',
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash', fa: 'fas fa-code', title: 'language'},
 				{k: 'devenv', v: 'bash, screen, vim, fedora', fa: 'fas fa-desktop', title: 'devel env'},
@@ -12,12 +12,12 @@
 				{k: 'site', v: 'https://xtod.net', fa: 'fas fa-link', link: 'https://xtod.net', title: 'website: '},
 				{k: 'mail', v: 'job@xtod.net', fa: 'fas fa-envelope', link: 'mailto:job@xtod.net', title: 'email: '},
 				{k: 'key', v: 'public key', fa: 'fas fa-key', link: 'https://xtod.net/xtod.pub'},
-				{k: 'itbooks', v: '编码(Charles Petzold)， 浪潮之巅，黑客与画家', fa: 'fas fa-book', title: '最爱书籍'},
+				{k: 'itbooks', v: '编码-Petzold,浪潮之巅,黑客与画家,汇编语言-王爽', fa: 'fas fa-book', title: '最爱书籍'},
 				{k: 'books', v: '红楼梦，北方的空地，鲁迅，冯骥才', fa: 'fas fa-book', title: '最爱书籍'},
 			],
-			sn_t: 'social network',
-			exp_t: 'experiences',
-			edu_t: 'education',
+			sn_t: '社交网络',
+			exp_t: '工作经历',
+			edu_t: '教育经历',
 			intro: '简练、忠信、好学、求真。擅长 Linux 系统工程，目前兴趣在 web 开发。主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈开发。具备团队组织协调能力。',
 			devenv_t: 'devel env: ',
 			devenv: 'bash, screen, vim, Fedora',
@@ -32,7 +32,7 @@
 				{name: 'bootstrap', percent: '85%'},
 				{name: 'sql', percent: '60%'},
 			],
-			skills_t: 'skills',
+			skills_t: '技 能',
 			skills: [
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇翻译',
 				'当地田协会员，完成多次马拉松赛事；跑步结婚上头条',
@@ -68,34 +68,22 @@
 		},
 	};
 	
-	resume.zh = Object.assign({}, resume.en);
-	resume.zh.title = '简 历';
-	resume.zh.name = '侯 斐';
-	resume.zh.role = 'web 全栈工程师，linux 系统工程师';
-	resume.zh.about_t = '关 于';
-	resume.zh.skills_t = '技 能';
-	resume.zh.sn_t = '社交网络';
-	resume.zh.exp_t = '工作经历';
-	resume.zh.edu_t = '教育经历';
-	resume.zh.intro = '自幼聪敏好学，据《旧唐书》记载，他六岁即能写文章，文笔流畅，被赞为“神童”。九岁时，读颜师古注《汉书》，作《指瑕》十卷以纠正其错。十六岁时，应幽素科试及第，授职朝散郎。';
-	resume.zh.devenv_t = '开发环境: ';
-	resume.zh.proglang_t = '语言： ';
-	resume.zh.location_t = '工作期望： ';
-	resume.zh.location = '远程，初创，杭州，上海';
-	resume.zh.site_t = '网站： ';
-	resume.zh.mail_t = '邮箱： ';
-	resume.zh.skills = [
-				'技能 1',
-				'技能 2',
-				'技能 3',
-				'技能 4',
-				'技能 5',
-				'技能 6',
-				'技能 7', 
-				'技能 8', 
-				'技能 9'
-			];
-	resume.zh.exps = [
+	resume.en = Object.assign({}, resume.zh);
+	resume.en.title = 'résumé';
+	resume.en.name = 'Arc Tod';
+	resume.en.role = 'full-stack developer, linux administrator';
+	resume.en.about_t = 'about';
+	resume.en.skills_t = 'skills';
+	resume.en.sn_t = 'social network';
+	resume.en.exp_t = 'experiences';
+	resume.en.edu_t = 'education';
+	resume.en.devenv_t = '开发环境: ';
+	resume.en.proglang_t = '语言： ';
+	resume.en.location_t = '工作期望： ';
+	resume.en.location = '远程，初创，杭州，上海';
+	resume.en.site_t = '网站： ';
+	resume.en.mail_t = '邮箱： ';
+	resume.en.exps = [
 				{
 					com: 'google, 2014-2016, ceo',
 					job: '我是ceo'
@@ -105,7 +93,7 @@
 					job: '我还是ceo.'
 				}
 			];
-	resume.zh.edu = '自学';
+	resume.en.edu = '自学';
 
 	var lang = (navigator.language || navigator.userLanguage).substr(0, 2);
 	if (lang !== 'zh') lang = 'en';
