@@ -27,10 +27,10 @@
 				{name: 'php', percent: '80%'},
 				{name: 'python', percent: '40%'},
 				{name: 'bash', percent: '85%'},
-				{name: 'vue.js', percent: '60%'},
+				{name: 'vue.js', percent: '70%'},
 				{name: 'symfony', percent: '60%'},
 				{name: 'bootstrap', percent: '90%'},
-				{name: 'sql', percent: '60%'},
+				{name: 'sql', percent: '55%'},
 			],
 			skills_t: '技 能',
 			skills: [
