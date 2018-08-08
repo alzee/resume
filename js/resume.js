@@ -24,12 +24,12 @@
 			proglang_t: '语言： ',
 			proglang: [
 				{name: 'javascript', percent: '60%'},
-				{name: 'php', percent: '70%'},
+				{name: 'php', percent: '80%'},
 				{name: 'python', percent: '40%'},
 				{name: 'bash', percent: '85%'},
 				{name: 'vue.js', percent: '60%'},
 				{name: 'symfony', percent: '60%'},
-				{name: 'bootstrap', percent: '85%'},
+				{name: 'bootstrap', percent: '90%'},
 				{name: 'sql', percent: '60%'},
 			],
 			skills_t: '技 能',
@@ -68,8 +68,10 @@
 			],
 			more_t : '更 多',
 			more: [
-					'崇尚命令行。用 bash + screen + vim 作 IDE ，用 nvlc 听歌，用 ImageMagick 压缩图片，用 nmcli 管理网络，用 transmission-remote BT，用 pacmd 切换耳机音响，用 gsettings 设置系统，用 oathtool 生成 OTP 动态密码，用 irssi 上 irc ，只玩 nethack 和 myman ，chrome 装 cVim 扩展……除 gimp, chrome, eog, evince, virtualbox, wireshark 以外，all in CLI 。',
-					'崇尚简洁',
+				'崇尚命令行。用 bash + screen + vim 作 IDE ，用 nvlc 听歌，用 ImageMagick 压缩图片，用 nmcli 管理网络，用 transmission-remote BT，用 pacmd 切换耳机音响，用 gsettings 设置系统，用 oathtool 生成 OTP 动态密码，用 irssi 上 irc ，只玩 nethack 和 myman ，chrome 装 cVim 扩展……除 gimp, chrome, eog, evince, virtualbox, wireshark 以外，all in CLI 。',
+				'崇尚简洁。简洁大方、引导性强的网站才是好网站。',
+				'如果一件事要做3次以上，就会写一个函数/脚本，比如自签名证书，比如每隔半年安装最新的 Fedora ，然后通过脚本恢复所有设置。(为什么重装？ 不是可以用 dnf 升级么？因为我的系统仅有 1700+ packages ，用 dnf 升级就要 100 分钟。而重装 10 分钟，跑一遍脚本最多 30 分钟，一起只要 40 分钟。而且，重装才有“新“的感觉。)',
+				'常用命令都可以用函数封装，达到一些自定义效果。函数名一个字母就够了，no more tab 。比如写一个函数 g() 来代替 git ，不带参数就是 git status ,  g c msg 则是 git add.; git commit -m msg，如果没有 msg 就用 placeholder , ',
 			],
 		},
 	};
