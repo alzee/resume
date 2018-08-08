@@ -11,7 +11,7 @@
 				{k: 'loc', v: 'remote, startups, hangzhou, shanghai', fa: 'fas fa-heart', title: 'would like'},
 				{k: 'site', v: 'https://xtod.net', fa: 'fas fa-link', link: 'https://xtod.net', title: 'website: '},
 				{k: 'mail', v: 'job@xtod.net', fa: 'fas fa-envelope', link: 'mailto:job@xtod.net', title: 'email: '},
-				{k: 'key', v: './xtod.pub', fa: 'fas fa-key', link: './xtod.pub'},
+				{k: 'key', v: 'public key', fa: 'fas fa-key', link: 'https://xtod.net/xtod.pub'},
 			],
 			skills_t: 'skills',
 			sn_t: 'social network',
