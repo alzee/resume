@@ -18,7 +18,7 @@
 			sn_t: 'social network',
 			exp_t: 'experiences',
 			edu_t: 'education',
-			intro: '简练、忠信、好学、求真。擅长 Linux 系统工程，目前兴趣在 web 开发。主要技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈开发。具备团队组织协调能力。',
+			intro: '简练、忠信、好学、求真。擅长 Linux 系统工程，目前兴趣在 web 开发。主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈开发。具备团队组织协调能力。',
 			devenv_t: 'devel env: ',
 			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: 'language: ',
