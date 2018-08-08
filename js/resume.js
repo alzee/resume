@@ -7,7 +7,7 @@
 			about_t: '关 于',
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash', fa: 'fas fa-code', title: 'language'},
-				{k: 'devenv', v: 'bash, screen, vim, fedora', fa: 'fas fa-desktop', title: 'devel env'},
+				{k: 'devenv', v: 'bash + screen + vim, fedora', fa: 'fas fa-desktop', title: 'devel env'},
 				{k: 'loc', v: '远程，初创，杭州，上海', fa: 'fas fa-heart', title: 'would like'},
 				{k: 'site', v: 'https://xtod.net', fa: 'fas fa-link', link: 'https://xtod.net', title: 'website: '},
 				{k: 'mail', v: 'job@xtod.net', fa: 'fas fa-envelope', link: 'mailto:job@xtod.net', title: 'email: '},
