@@ -7,14 +7,15 @@
 			about_t: '简 介',
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash', fa: 'fas fa-code', title: 'language'},
-				{k: 'devenv', v: 'bash + screen + vim, fedora', fa: 'fas fa-desktop', link: 'https://xtod.net/journal/352', title: 'devel env'},
-				{k: 'loc', v: '远程，初创，杭州，上海', fa: 'fas fa-heart', title: 'would like'},
-				{k: 'site', v: 'https://xtod.net', fa: 'fas fa-link', link: 'https://xtod.net', title: 'website: '},
 				{k: 'mail', v: 'job@xtod.net', fa: 'fas fa-envelope', link: 'mailto:job@xtod.net', title: 'email: '},
+				{k: 'devenv', v: 'bash + screen + vim, fedora', fa: 'fas fa-desktop', link: 'https://xtod.net/journal/352', title: 'devel env'},
+				{k: 'site', v: 'https://xtod.net', fa: 'fas fa-link', link: 'https://xtod.net', title: 'website: '},
+				{k: 'loc', v: '远程，初创，杭州，上海', fa: 'fas fa-heart', title: 'would like'},
 				{k: 'key', v: 'https://xtod.net/xtod.pub', fa: 'fas fa-key', link: 'https://xtod.net/xtod.pub'},
 				{k: 'itbooks', v: '编码-Petzold,浪潮之巅,黑客与画家,汇编语言-王爽', fa: 'fas fa-book', title: '最爱书籍'},
 				{k: 'books', v: '红楼梦，北方的空地，鲁迅，冯骥才', fa: 'fas fa-book', title: '最爱书籍', class: 'd-none'},
-				{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg', fa: 'fab fa-bitcoin', title: 'btc'},
+				{k: 'github', v: 'https://github.com/xtod', fa: 'fab fa-github', link: 'https://github.com/xtod', title: 'btc'},
+				{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg', fa: 'fab fa-bitcoin', title: 'btc'}
 			],
 			sn_t: '社交网络',
 			exp_t: '工作经历',
@@ -33,20 +34,16 @@
 				{name: 'bootstrap', percent: '90%'},
 				{name: 'sql', percent: '55%'},
 			],
-			skills_t: '介 绍',
+			skills_t: '更 多',
 			skills: [
 				'精通 LAMP 。PHP 代码遵循 PSR-1, PSR-2, PSR-4 规范',
 				'精通 bootstrap, vue.js 等前端框架',
-				'熟悉自动化运维(ansible), 虚拟化(kvm, docker)',
-				'AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台维护经验',
-				'git, composer, npm...',
+				'熟悉 AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台',
+				'熟悉虚拟化(docker, kvm)，自动化运维(ansible)',
+				'精通 bash, 掌握 NFS, samba, DHCP, DNS, FTP 等常用服务配置',
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇翻译',
 				'当地田协会员，完成多次马拉松赛事；跑步结婚上头条',
-				'skill 5',
-				'skill 6',
-				'skill 7', 
-				'skill 8', 
-				'skill 9'
+				'git, composer, npm...'
 			],
 			exps: [
 				{
