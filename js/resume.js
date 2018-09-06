@@ -38,7 +38,7 @@
 			skills: [
 				'精通 LAMP 。PHP 代码遵循 PSR-1, PSR-2, PSR-4 规范',
 				'精通 bootstrap, vue.js 等前端框架',
-				'熟悉 AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台',
+				'AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台维护使用经验',
 				'熟悉虚拟化(docker, kvm)，自动化运维(ansible)',
 				'精通 bash, 掌握 NFS, samba, DHCP, DNS, FTP 等常用服务配置',
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇翻译',
