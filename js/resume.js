@@ -8,7 +8,7 @@
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash', fa: 'fas fa-code', title: 'language'},
 				{k: 'mail', v: 'job@xtod.net', fa: 'fas fa-envelope', link: 'mailto:job@xtod.net', title: 'email: '},
-				{k: 'devenv', v: 'bash + screen + vim, fedora', fa: 'fas fa-desktop', link: 'https://xtod.net/journal/352', title: 'devel env'},
+				{k: 'devenv', v: 'bash + screen + vim, fedora', fa: 'fas fa-desktop', title: 'devel env'},
 				{k: 'site', v: 'https://xtod.net', fa: 'fas fa-link', link: 'https://xtod.net', title: 'website: '},
 				{k: 'loc', v: '远程，初创，杭州，上海', fa: 'fas fa-heart', title: 'would like'},
 				{k: 'key', v: 'https://xtod.net/xtod.pub', fa: 'fas fa-key', link: 'https://xtod.net/xtod.pub'},
@@ -37,17 +37,17 @@
 			skills_t: '更 多',
 			skills: [
 				'精通 LAMP 。PHP 代码遵循 PSR-1, PSR-2, PSR-4 规范',
-				'精通 bootstrap, vue.js 等前端框架',
+				'熟悉 bootstrap, vue.js 等前端框架',
 				'AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台维护使用经验',
 				'熟悉虚拟化(docker, kvm)，自动化运维(ansible)',
-				'精通 bash, 掌握 NFS, samba, DHCP, DNS, FTP 等常用服务配置',
+				'精通 bash, 熟悉 NFS, samba, DHCP, DNS, FTP 等常用服务配置',
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇翻译',
 				'当地田协会员，完成多次马拉松赛事；跑步结婚上头条',
 				'git, composer, npm...'
 			],
 			exps: [
 				{
-					com: '创业，2016-2018，创始人、程序员',
+					com: '创业，2016-2018',
 					job: '软件外包，主营网站开发、小程序、公众号'
 				},
 				{
