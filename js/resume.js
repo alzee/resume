@@ -34,7 +34,7 @@
 				{name: 'bootstrap', percent: '90%'},
 				{name: 'sql', percent: '55%'},
 			],
-			skills_t: '更 多',
+			skills_t: '技 能',
 			skills: [
 				'精通 LAMP 。PHP 代码遵循 PSR-1, PSR-2, PSR-4 规范',
 				'熟悉 bootstrap, vue.js 等前端框架',
