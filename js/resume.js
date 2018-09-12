@@ -20,7 +20,7 @@
 			sn_t: '社交网络',
 			exp_t: '工作经历',
 			edu_t: '教育经历',
-			intro: '简练、果敢、好学、求真。具备团队组织协调能力。擅长 Linux 系统工程，精通 Fedora, Debian, RedHat/CentOS, LFS 等发行版。目前兴趣在 web 开发，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。',
+			intro: '简练、果敢、好学、求真。具备团队组织协调能力。运维背景，擅长 Linux 系统工程，精通 Fedora, Debian, RedHat/CentOS, LFS 等发行版。目前兴趣在 web 开发，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: '语言： ',
@@ -66,7 +66,7 @@
 					job: '企业、零售软硬件维护，管理技术团队'
 				}
 			],
-			edu: '自学。非计算机专业，大专未毕业，无培训经历',
+			edu: '自学。大专未毕业，非计算机专业，无培训经历',
 			sns: [
 				{name: 'github', link: 'https://github.com/xtod', fa: 'fab fa-github'},
 				{name: 'stack overflow', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
