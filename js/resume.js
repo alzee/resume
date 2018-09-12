@@ -3,7 +3,7 @@
 		zh: {
 			title: '简 历',
 			name: '侯 斐',
-			role: 'web 全栈工程师，linux 系统工程师',
+			role: 'php 开发工程师，linux 系统工程师',
 			about_t: '简 介',
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash', fa: 'fas fa-code', title: 'language'},
@@ -90,7 +90,7 @@
 	resume.en = Object.assign({}, resume.zh);
 	resume.en.title = 'résumé';
 	resume.en.name = 'Arc Tod';
-	resume.en.role = 'full-stack developer, linux administrator';
+	resume.en.role = 'php developer, linux administrator';
 	resume.en.about_t = 'about';
 	resume.en.skills_t = 'skills';
 	resume.en.sn_t = 'social network';
