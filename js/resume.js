@@ -42,7 +42,7 @@
 				'熟悉虚拟化(docker, kvm)，自动化运维(ansible)',
 				'精通 bash, 熟悉 NFS, samba, DHCP, DNS, FTP 等常用服务配置',
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇翻译',
-				'当地田协会员，完成多次马拉松赛事；跑步结婚上头条'
+				'当地田协会员，完成多次马拉松赛事' //跑步结婚上头条
 			],
 			exps: [
 				{
@@ -68,13 +68,13 @@
 			],
 			edu: '自学。大专未毕业，非计算机专业，无培训经历',
 			sns: [
-				{name: 'github', link: 'https://github.com/xtod', fa: 'fab fa-github'},
-				{name: 'stack overflow', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
+				{name: 'xtod', link: 'https://github.com/xtod', fa: 'fab fa-github'},
+				{name: 'xtod', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
 				{name: 'xtod@freenode', link: '#'},
-				{name: 'twitter', link: 'https://twitter.com/arctod', fa: 'fab fa-twitter'},
-				{name: 'facebook', link: 'https://www.facebook.com/ArcTod', fa: 'fab fa-facebook'},
-				{name: 'quora', link: 'https://www.quora.com/profile/arctod', fa: 'fab fa-quora'},
-				{name: 'linkedin', link: 'https://www.linkedin.com/in/dotcra/', fa: 'fab fa-linkedin'},
+				{name: 'ArcTod', link: 'https://twitter.com/arctod', fa: 'fab fa-twitter'},
+				{name: 'ArcTod', link: 'https://www.facebook.com/ArcTod', fa: 'fab fa-facebook'},
+				{name: 'ArcTod', link: 'https://www.quora.com/profile/arctod', fa: 'fab fa-quora'},
+				{name: 'dotcra', link: 'https://www.linkedin.com/in/dotcra/', fa: 'fab fa-linkedin'},
 				//{name: 'dotcra', link: '#', fa: 'fab fa-weixin'},
 			],
 			more_t : '更 多',
