@@ -70,7 +70,7 @@
 			sns: [
 				{name: 'xtod', link: 'https://github.com/xtod', fa: 'fab fa-github'},
 				{name: 'xtod', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
-				{name: 'xtod@freenode', link: '#'},
+				{name: 'xtod', link: 'https://webchat.freenode.net', fa: 'fas fa-hashtag'},
 				{name: 'ArcTod', link: 'https://twitter.com/arctod', fa: 'fab fa-twitter'},
 				{name: 'ArcTod', link: 'https://www.facebook.com/ArcTod', fa: 'fab fa-facebook'},
 				{name: 'ArcTod', link: 'https://www.quora.com/profile/arctod', fa: 'fab fa-quora'},
