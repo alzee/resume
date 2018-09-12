@@ -66,7 +66,7 @@
 					job: '企业、零售软硬件维护，管理技术团队'
 				}
 			],
-			edu: '自学',
+			edu: '自学。非计算机专业，大专未毕业，无培训经历',
 			sns: [
 				{name: 'github', link: 'https://github.com/xtod', fa: 'fab fa-github'},
 				{name: 'stack overflow', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
