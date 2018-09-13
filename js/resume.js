@@ -81,6 +81,10 @@
 				{name: 'dotcra', link: 'https://www.linkedin.com/in/dotcra/', fa: 'fab fa-linkedin'},
 				//{name: 'dotcra', link: '#', fa: 'fab fa-weixin'},
 			],
+			po_t: '作 品',
+			po: [
+				{name: '茅箭区投资项目直报平台', img: 'img/fgw.png', desc: 'fab fa-linkedin'},
+			],
 			more_t : '更 多',
 			more: [
 				'崇尚命令行。bash + screen + vim 作 IDE ，nvlc 听歌，用 ImageMagick 压缩图片，用 nmcli 管理网络，用 transmission-remote BT，pacmd 切换耳机音响，gsettings 配置系统，用 oathtool 生成 OTP 动态密码，irssi 上 irc ，只玩 nethack 和 myman ，chrome 装 cVim 扩展……',
@@ -102,6 +106,7 @@
 	resume.en.edu_t = 'education';
 	resume.en.devenv_t = 'devel env: ';
 	resume.en.proglang_t = 'language: ';
+	resume.en.po_t = 'portfolio';
 	//resume.en.about.loc.v= 'remote, startups, hangzhou, shanghai';
 	//resume.en.edu = 'self-taught';
 	resume.en.more_t = 'more';
