@@ -103,7 +103,7 @@
 	resume.en.devenv_t = 'devel env: ';
 	resume.en.proglang_t = 'language: ';
 	//resume.en.about.loc.v= 'remote, startups, hangzhou, shanghai';
-	resume.en.edu = 'self-taught';
+	//resume.en.edu = 'self-taught';
 	resume.en.more_t = 'more';
 
 	var lang = (navigator.language || navigator.userLanguage).substr(0, 2);
