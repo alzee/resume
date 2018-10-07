@@ -125,9 +125,20 @@ img{
 			<strong>{{po_t}}</strong>
 		</div>
 			{{#po}}
-		<div>
-			<img class="" src="{{img}}">
-			<p>{{name}}</p>
+		<div class="mb-4">
+			<p class="mb-0"><strong>{{name}}, {{date}}</strong></p>
+			<p class="mb-0"><strong>项目描述</strong></p>
+			<ul class="pl-3 mb-0">
+			{{#desc}}
+				<li>{{.}}</li>
+			{{/desc}}
+			</ul>
+			<p class="mb-0"><strong>职责描述</strong></p>
+			<ul class="pl-3 mb-0">
+			{{#job}}
+				<li>{{.}}</li>
+			{{/job}}
+			</ul>
 		</div>
 			{{/po}}
 

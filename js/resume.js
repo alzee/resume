@@ -83,7 +83,59 @@
 			],
 			po_t: '作 品',
 			po: [
-				{name: '茅箭区投资项目直报平台', img: 'img/fgw.png', desc: 'fab fa-linkedin'},
+				{
+					name: '茅箭区投资项目直报平台',
+					date: '2018.03 - 2018.04',
+					job: [
+						'本地搭建测试环境；',
+						'基于默认主题 Bartik 基础上开发子主题；',
+						'用 composer 部署网站目录、模块安装；',
+						'撰写文章并发表，管理评论，SEO；',
+						'服务器维护，网站上传目录备份方案，数据库备份方案；'
+					],
+					desc: [
+						'集中管理全区 100 个重点投资项目，由全区各部门上报、查询及更新；设立锁定日期，生成“未上报”、“数据雷同”等警告信息；生成统计数据，并提供报表导出功能',
+						'用 php 开发，框架为 symfony 4 ，数据库 mariaDB，操作系统 Debian 9.4 ，服务器选用阿里云华东1机房及谷歌云(GCP)台湾机房',
+						'前端采用 bootstrap 4 搭配原生 javascript ，并大量采用 ajax 以提高用户体验',
+						'导入 xls 至数据库的功能在服务器端完成，由 PhpSpreadsheet 实现',
+						'将页面 table 导出至 xls 在客户端完成，由 js-xlsx 实现',
+						'采用 git (updateInstead) 发布'
+					]
+				},
+				{
+					name: '招商银行上海信用卡中心机房管理系统',
+					date: '2013.04 - 2014.06',
+					job: [
+						'此项目由本人独立完成，职责包括但不限于：',
+						'本地搭建测试环境；',
+						'基于默认主题 Bartik 基础上开发子主题；',
+						'用 composer 部署网站目录、模块安装；',
+						'撰写文章并发表，管理评论，SEO；',
+						'服务器维护，网站上传目录备份方案，数据库备份方案；'
+					],
+					desc: [
+						'Drupal 最新版本，搭配 ctools(API), honeypot(反垃圾), imce(文件管理), metatag(SEO), pathauto(自定义url), token 等模块，实现完整的博客系统',
+						'在默认主题 Bartik 基础上开发子主题',
+						'操作系统 Debian ，数据库 mariaDB ，服务器选用 digitalocean 的 sfo2 机房，利用 CloudFlare CDN 进行加速'
+					]
+				},
+				{
+					name: '个人网站',
+					date: '2010.05 - 至今',
+					job: [
+						'此项目由本人独立完成，职责包括但不限于：',
+						'本地搭建测试环境；',
+						'基于默认主题 Bartik 基础上开发子主题；',
+						'用 composer 部署网站目录、模块安装；',
+						'撰写文章并发表，管理评论，SEO；',
+						'服务器维护，网站上传目录备份方案，数据库备份方案；'
+					],
+					desc: [
+						'Drupal 最新版本，搭配 ctools(API), honeypot(反垃圾), imce(文件管理), metatag(SEO), pathauto(自定义url), token 等模块，实现完整的博客系统',
+						'在默认主题 Bartik 基础上开发子主题',
+						'操作系统 Debian ，数据库 mariaDB ，服务器选用 digitalocean 的 sfo2 机房，利用 CloudFlare CDN 进行加速'
+					]
+				},
 			],
 			more_t : '更 多',
 			more: [
