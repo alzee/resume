@@ -41,8 +41,8 @@
 				'AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台维护使用经验',
 				'熟悉虚拟化(docker, kvm)，自动化运维(ansible)',
 				'精通 bash, 熟悉 NFS, samba, DHCP, DNS, FTP 等常用服务配置',
-				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇翻译',
-				'当地田协会员，完成多次马拉松赛事' //跑步结婚上头条
+				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
+				'当地田协会员，完成多次马拉松赛事；跑步结婚上头条'
 			],
 			exps: [
 				{
