@@ -151,7 +151,8 @@
 		},
 	};
 	
-	resume.en = Object.assign({}, resume.zh);
+	//resume.en = Object.assign({}, resume.zh);	// not supported by ie
+	resume.en = JSON.parse(JSON.stringify(resume.zh));
 	resume.en.title = 'résumé';
 	resume.en.name = 'Arc Tod';
 	resume.en.role = 'php developer, linux administrator, IT supervisor';
