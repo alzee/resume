@@ -20,7 +20,7 @@
 			sn_t: '社交网络',
 			exp_t: '工作经历',
 			edu_t: '教育经历',
-			intro: '简练、果敢、沉着、细致、好学、求真。具备团队组织协调能力。运维背景，擅长 Linux 系统工程，精通 Fedora, Debian, RedHat/CentOS, LFS 等发行版。目前兴趣在 web 开发，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。',
+			intro: '擅长 Linux 系统工程，精通 Fedora, Debian, RedHat/CentOS, LFS 等发行版。目前兴趣在 web 开发，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。具备团队组织协调能力。简练、果敢、沉着、细致、好学、求真。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: '语言： ',
@@ -134,7 +134,7 @@
 					job: [
 						'该项目由本人独立完成，职责包括但不限于：',
 						'本地搭建测试环境',
-						'基于默认主题 Bartik 基础上开发子主题',
+						'基于默认主题 Bartik 基础上开发(html, css)子主题',
 						'用 composer 部署网站目录、模块安装',
 						'撰写文章并发表，管理评论，SEO',
 						'服务器维护，网站上传目录备份方案，数据库备份方案'
