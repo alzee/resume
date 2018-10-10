@@ -37,7 +37,7 @@
 			skills_t: '技 能',
 			skills: [
 				'懂点 php ；用过 symfony 4, laravel, thinkphp 5 等框架；代码遵循 PSR-1, PSR-2, PSR-4 规范',
-				'html, css 也要说，真他妈够了， 懂点 javascript ，用过 bootstrap, vue.js 等前端框架',
+				'html, css 也要大声说出来，懂点 javascript ，用过 bootstrap, vue.js 等前端框架',
 				'10+ 年 linux 折腾经验， 懂点 bash ，还有 httpd, nginx, NFS, samba, DHCP, DNS, FTP 等常用服务配置，了解点负载均衡(lvs)',
 				'AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台维护使用经验',
 				'懂点虚拟化(docker, kvm, VirtualBox)，再懂点自动化运维(ansible)',
@@ -50,7 +50,7 @@
 					//job: '自由职业'
 				},
 				{
-					com: '创业，2016.5-至今，合伙人、程序员',
+					com: '创业，2016.5-至今，合伙人、程序员、freelancer',
 					job: '自主创业，从事软件外包，主营网站开发、小程序、公众号'
 				},
 				{
@@ -66,8 +66,8 @@
 					job: '各卖场路由器、交换机、收银系统、电子称、服务器、网络、桌面、门禁、考勤等安装调试及后期维护；ERP系统管理及维护，进销存数据分析，报表制作；员工信息化培训'
 				},
 				{
-					com: '蓝星电脑，2006.11-2010.10，技术部长',
-					job: '企业、零售软硬件维护，管理技术团队'
+					com: '蓝星电脑，2006.11-2010.10，技术经理',
+					job: '企业、零售软硬件、网络安装维护'
 				}
 			],
 			edu: '自学。大专未毕业，非计算机专业，无培训经历',
