@@ -155,7 +155,7 @@
 	resume.en = JSON.parse(JSON.stringify(resume.zh));
 	resume.en.title = 'résumé';
 	resume.en.name = 'Arc Tod';
-	resume.en.role = 'php developer, linux administrator, IT supervisor';
+	resume.en.role = 'newbie php developer, lousy linux administrator, crappy IT supervisor';
 	resume.en.about_t = 'about';
 	resume.en.skills_t = 'skills';
 	resume.en.sn_t = 'social network';
