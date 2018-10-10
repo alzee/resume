@@ -3,7 +3,7 @@
 		zh: {
 			title: '简 历',
 			name: '侯 斐',
-			role: '新手 php 程序员，水货 linux 运维，或者蹭个 IT 主管',
+			role: '水货 php 程序员 & linux 运维，或者蹭个 IT 主管',
 			about_t: '简 介',
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash, c, assembly', fa: 'fas fa-code', title: 'language'},
@@ -20,7 +20,7 @@
 			sn_t: '社交网络',
 			exp_t: '工作经历',
 			edu_t: '教育经历',
-			note: '该简历有两个 git 分支，您正在查看 WTF 分支',
+			note: '该简历有两个 git 分支，您正在查看 crap 分支',
 			intro: '懂点 Linux ，比如 Fedora, Debian, RedHat/CentOS, LFS 。目前兴趣在 web 开发，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。具备团队组织协调能力。简练、果敢、沉着、细致、好学、求真。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
@@ -156,7 +156,7 @@
 	resume.en = JSON.parse(JSON.stringify(resume.zh));
 	resume.en.title = 'résumé';
 	resume.en.name = 'Arc Tod';
-	resume.en.role = 'newbie php developer, lousy linux administrator, crappy IT supervisor';
+	resume.en.role = 'awful php developer, lousy linux administrator, crappy IT supervisor';
 	resume.en.about_t = 'about';
 	resume.en.skills_t = 'skills';
 	resume.en.sn_t = 'social network';
