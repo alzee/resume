@@ -37,9 +37,9 @@
 			],
 			skills_t: '技 能',
 			skills: [
-				'懂点 php ；用过 symfony 4, laravel, thinkphp 5 等框架；代码遵循 PSR-1, PSR-2, PSR-4 规范',
+				'懂点 php ，会写 hello world；用过 symfony 4, laravel, thinkphp 5 等框架；代码遵循 PSR-1, PSR-2, PSR-4 规范',
 				'html, css 也要大声说出来，懂点 javascript ，用过 bootstrap, vue.js 等前端框架',
-				'10+ 年 linux 折腾经验， 懂点 bash ，还有 httpd, nginx, NFS, samba, DHCP, DNS, FTP 等常用服务配置，了解点负载均衡(lvs)',
+				'10+ 年 linux 折腾经验， 懂点 bash ，会写 fork bomb ，还有 httpd, nginx, NFS, samba, DHCP, DNS, FTP 等常用服务配置，了解点负载均衡(lvs)',
 				'AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台维护使用经验',
 				'懂点虚拟化(docker, kvm, VirtualBox)，再懂点自动化运维(ansible)',
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
