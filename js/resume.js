@@ -20,7 +20,7 @@
 			sn_t: '社交网络',
 			exp_t: '工作经历',
 			edu_t: '教育经历',
-			intro: '擅长 Linux 系统工程，精通 Fedora, Debian, RedHat/CentOS, LFS 等发行版。目前兴趣在 web 开发，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。具备团队组织协调能力。简练、果敢、沉着、细致、好学、求真。',
+			intro: '擅长 Linux 系统工程，熟悉 Fedora, Debian, RedHat/CentOS, LFS 等发行版。目前兴趣在 web 开发，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。具备团队组织协调能力。简练、果敢、沉着、细致、好学、求真。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: '语言： ',
@@ -36,13 +36,13 @@
 			],
 			skills_t: '技 能',
 			skills: [
-				'精通 LAMP 。PHP 代码遵循 PSR-1, PSR-2, PSR-4 规范',
-				'精通 html, css, 熟悉 bootstrap, vue.js 等前端框架',
+				'3 年 php 开发经验；熟悉 symfony 4, laravel, thinkphp 5 等框架；代码遵循 PSR-1, PSR-2, PSR-4 规范',
+				'掌握 html, css, 熟悉 javascript ，熟悉 bootstrap, vue.js 等前端框架',
+				'5 年 linux 运维经验， 精通 bash ，熟悉 httpd, nginx, NFS, samba, DHCP, DNS, FTP 等常用服务配置，了解负载均衡(lvs)',
 				'AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台维护使用经验',
-				'熟悉虚拟化(docker, kvm)，自动化运维(ansible)',
-				'精通 bash, 熟悉 NFS, samba, DHCP, DNS, FTP 等常用服务配置',
+				'熟悉虚拟化(docker, kvm, VirtualBox)，熟悉自动化运维(ansible)',
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
-				'当地田协会员，完成多次马拉松赛事；跑步结婚上头条'
+				'当地田协会员，完成多次马拉松赛事'
 			],
 			exps: [
 				{
@@ -50,7 +50,7 @@
 					//job: '自由职业'
 				},
 				{
-					com: '创业，2016.5-2018.8，合伙人、程序员',
+					com: '创业，2016.5-至今，合伙人、程序员',
 					job: '自主创业，从事软件外包，主营网站开发、小程序、公众号'
 				},
 				{
