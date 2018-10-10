@@ -3,7 +3,7 @@
 		zh: {
 			title: '简 历',
 			name: '侯 斐',
-			role: 'php 开发工程师，linux 系统工程师，IT 主管',
+			role: '新手 php 程序员，水货 linux 运维，或者蹭个 IT 主管',
 			about_t: '简 介',
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash, c, assembly', fa: 'fas fa-code', title: 'language'},
@@ -20,7 +20,7 @@
 			sn_t: '社交网络',
 			exp_t: '工作经历',
 			edu_t: '教育经历',
-			intro: '擅长 Linux 系统工程，熟悉 Fedora, Debian, RedHat/CentOS, LFS 等发行版。目前兴趣在 web 开发，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。具备团队组织协调能力。简练、果敢、沉着、细致、好学、求真。',
+			intro: '懂点 Linux ，比如 Fedora, Debian, RedHat/CentOS, LFS 等发行版。目前兴趣在 web 开发，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。具备团队组织协调能力。简练、果敢、沉着、细致、好学、求真。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: '语言： ',
@@ -36,11 +36,11 @@
 			],
 			skills_t: '技 能',
 			skills: [
-				'3 年 php 开发经验；熟悉 symfony 4, laravel, thinkphp 5 等框架；代码遵循 PSR-1, PSR-2, PSR-4 规范',
-				'掌握 html, css, 熟悉 javascript ，熟悉 bootstrap, vue.js 等前端框架',
-				'5 年 linux 运维经验， 精通 bash ，熟悉 httpd, nginx, NFS, samba, DHCP, DNS, FTP 等常用服务配置，了解负载均衡(lvs)',
+				'懂点 php ；用过 symfony 4, laravel, thinkphp 5 等框架；代码遵循 PSR-1, PSR-2, PSR-4 规范',
+				'html, css 也要说，真他妈够了， 懂点 javascript ，用过 bootstrap, vue.js 等前端框架',
+				'10+ 年 linux 折腾经验， 懂点 bash ，还有 httpd, nginx, NFS, samba, DHCP, DNS, FTP 等常用服务配置，了解点负载均衡(lvs)',
 				'AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台维护使用经验',
-				'熟悉虚拟化(docker, kvm, VirtualBox)，熟悉自动化运维(ansible)',
+				'懂点虚拟化(docker, kvm, VirtualBox)，再懂点自动化运维(ansible)',
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
 				'当地田协会员，完成多次马拉松赛事'
 			],
@@ -87,10 +87,10 @@
 					name: '茅箭区投资项目直报平台',
 					date: '2018.03 - 2018.04',
 					desc: [
-						'集中管理全区 100 个重点投资项目，由全区各部门上报、查询及更新；设立锁定日期，进度考核，生成“未上报”、“数据雷同”等警告信息；生成统计数据，并提供报表导入导出功能',
-						'用 php 开发，框架为 symfony 4 ，数据库 mariaDB，操作系统 Debian 9.4 ，服务器选用阿里云华东1机房及谷歌云(GCP)台湾机房',
-						'前端采用 bootstrap 4 搭配原生 javascript ，并大量采用 ajax 以提高用户体验',
-						'导入 xls 至数据库的功能在服务器端完成，由 PhpSpreadsheet 实现',
+						'集中管理全区 100 个重点投资项目，提供上报、查询及更新，内容锁定，进度考核，警告信息，生成统计数据，报表导入导出等功能',
+						'用 php 开发，框架为 symfony 4 ，数据库 mariaDB，操作系统 Debian ，服务器选用阿里云华东1机房及谷歌云(GCP)台湾机房',
+						'前端采用 bootstrap 4 ，原生 javascript ，并大量采用 ajax 以提高用户体验',
+						'导入 xls 至数据库的功能在服务器端完成，由 phpSpreadsheet 实现',
 						'将页面 table 导出至 xls 在客户端完成，由 js-xlsx 实现',
 						'用 git (updateInstead) 发布'
 					],
