@@ -154,7 +154,7 @@
 	//resume.en = Object.assign({}, resume.zh);	// not supported by ie
 	resume.en = JSON.parse(JSON.stringify(resume.zh));
 	resume.en.title = 'résumé';
-	resume.en.name = 'Arc Tod';
+	resume.en.name = 'Arc Zee';
 	resume.en.role = 'php developer, linux administrator, IT supervisor';
 	resume.en.about_t = 'about';
 	resume.en.skills_t = 'skills';
