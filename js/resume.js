@@ -7,15 +7,15 @@
 			about_t: '简 介',
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash, c, assembly', fa: 'fas fa-code', title: 'language'},
-				{k: 'mail', v: 'job@xtod.net', fa: 'fas fa-envelope', link: 'mailto:job@xtod.net', title: 'email: '},
+				{k: 'mail', v: 'job@arcz.ee', fa: 'fas fa-envelope', link: 'mailto:job@arcz.ee', title: 'email: '},
 				{k: 'devenv', v: 'bash + screen + vim, fedora', fa: 'fas fa-desktop', title: 'devel env'},
-				{k: 'site', v: 'https://xtod.net', fa: 'fas fa-link', link: 'https://xtod.net', title: 'website: '},
+				{k: 'site', v: 'https://arcz.ee', fa: 'fas fa-link', link: 'https://arcz.ee', title: 'website: '},
 				//{k: 'loc', v: '远程，初创，杭州，上海', fa: 'fas fa-heart', title: 'would like'},
 				//{k: 'itbooks', v: '编码-Petzold,浪潮之巅,黑客与画家,汇编语言-王爽', fa: 'fas fa-book', title: '最爱书籍'},
 				{k: 'github', v: 'https://github.com/xtod', fa: 'fab fa-github', link: 'https://github.com/xtod', title: 'btc'},
 				{k: 'books', v: '红楼梦，北方的空地，鲁迅，冯骥才', fa: 'fas fa-book', title: '最爱书籍', class: 'd-none'},
 				{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg', fa: 'fab fa-bitcoin', title: 'btc'},
-				{k: 'key', v: 'https://xtod.net/xtod.pub', fa: 'fas fa-key', link: 'https://xtod.net/xtod.pub'},
+				{k: 'key', v: 'https://arcz.ee/pub.key', fa: 'fas fa-key', link: 'https://arcz.ee/pub.key'},
 			],
 			sn_t: '社交网络',
 			exp_t: '工作经历',
@@ -155,7 +155,7 @@
 	//resume.en = Object.assign({}, resume.zh);	// not supported by ie
 	resume.en = JSON.parse(JSON.stringify(resume.zh));
 	resume.en.title = 'résumé';
-	resume.en.name = 'Arc Tod';
+	resume.en.name = 'Arc Zee';
 	resume.en.role = 'awful php developer, lousy linux administrator, crappy IT supervisor';
 	resume.en.about_t = 'about';
 	resume.en.skills_t = 'skills';
