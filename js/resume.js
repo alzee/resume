@@ -2,7 +2,7 @@
 	var resume = {
 		zh: {
 			title: '简 历',
-			name: '侯 斐',
+			name: '侯 斐 (z14)',
 			role: 'php 开发工程师，linux 系统工程师，IT 主管',
 			about_t: '简 介',
 			about: [
@@ -154,7 +154,7 @@
 	//resume.en = Object.assign({}, resume.zh);	// not supported by ie
 	resume.en = JSON.parse(JSON.stringify(resume.zh));
 	resume.en.title = 'résumé';
-	resume.en.name = 'Arc Tod';
+	resume.en.name = 'Arc Tod (z14)';
 	resume.en.role = 'php developer, linux administrator, IT supervisor';
 	resume.en.about_t = 'about';
 	resume.en.skills_t = 'skills';
