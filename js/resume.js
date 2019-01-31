@@ -78,7 +78,7 @@
 				{name: 'ArcTod', link: 'https://www.quora.com/profile/ArcTod', fa: 'fab fa-quora'},
 				{name: 'ArcTod', link: 'https://twitter.com/arctod', fa: 'fab fa-twitter'},
 				{name: 'ArcTod', link: 'https://www.facebook.com/ArcTod', fa: 'fab fa-facebook'},
-				{name: 'dotcra', link: 'https://www.linkedin.com/in/dotcra/', fa: 'fab fa-linkedin'},
+				{name: 'Arc Zee', link: 'https://www.linkedin.com/in/arczee/', fa: 'fab fa-linkedin'},
 				//{name: 'dotcra', link: '#', fa: 'fab fa-weixin'},
 			],
 			po_t: '作 品',
