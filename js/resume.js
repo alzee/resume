@@ -75,7 +75,7 @@
 				{name: 'z14', link: 'https://github.com/z14', fa: 'fab fa-github'},
 				{name: 'z14', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
 				{name: 'z14', link: 'https://webchat.freenode.net', fa: 'fas fa-hashtag'},
-				{name: 'ArcTod', link: 'https://www.quora.com/profile/ArcTod', fa: 'fab fa-quora'},
+				{name: 'Arc Zee', link: 'https://www.quora.com/profile/Arc-Zee', fa: 'fab fa-quora'},
 				{name: 'ArcTod', link: 'https://twitter.com/arctod', fa: 'fab fa-twitter'},
 				{name: 'ArcTod', link: 'https://www.facebook.com/ArcTod', fa: 'fab fa-facebook'},
 				{name: 'Arc Zee', link: 'https://www.linkedin.com/in/arczee/', fa: 'fab fa-linkedin'},
