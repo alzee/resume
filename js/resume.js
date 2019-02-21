@@ -3,7 +3,7 @@
 		zh: {
 			title: '简 历',
 			name: '侯 斐',
-			role: 'php 开发工程师，linux 系统工程师，IT 主管',
+			role: 'web 开发工程师，linux 系统工程师，IT 主管',
 			about_t: '简 介',
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash, c, assembly', fa: 'fas fa-code', title: 'language'},
@@ -16,12 +16,12 @@
 				{k: 'books', v: '红楼梦，北方的空地，鲁迅，冯骥才', fa: 'fas fa-book', title: '最爱书籍', class: 'd-none'},
 				{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg', fa: 'fab fa-bitcoin', title: 'btc'},
 				{k: 'key', v: 'https://arcz.ee/pub.key', fa: 'fas fa-key', link: 'https://arcz.ee/pub.key'},
-				{k: 'phone', v: '13200000000', fa: 'fas fa-phone fa-flip-horizontal', class: 'd-none'},
+				{k: 'phone', v: 'MTMyIDA3MjYgMjAxMQ==', fa: 'fas fa-phone fa-flip-horizontal' },
 			],
 			sn_t: '社交网络',
 			exp_t: '工作经历',
 			edu_t: '教育经历',
-			intro: '熟悉企业内软硬件及网络运维。擅长 Linux 系统工程，熟悉 Fedora, Debian, RedHat/CentOS, LFS 等。有 web 开发经验，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。具备团队组织协调能力。简练、果敢、沉着、细致、好学、求真。',
+			intro: '熟悉企业内软硬件及网络运维。擅长 Linux 系统工程，熟悉 Fedora, Debian, RedHat/CentOS, LFS 等。有 web 开发经验，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。具备团队组织协调能力。专业、高效、简练、果敢、沉着、细致、好学、求真。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: '语言： ',
@@ -157,7 +157,7 @@
 	resume.en = JSON.parse(JSON.stringify(resume.zh));
 	resume.en.title = 'résumé';
 	resume.en.name = 'Arc Zee';
-	resume.en.role = 'php developer, linux administrator, IT supervisor';
+	resume.en.role = 'web developer, linux administrator, IT supervisor';
 	resume.en.about_t = 'about';
 	resume.en.skills_t = 'skills';
 	resume.en.sn_t = 'social network';
