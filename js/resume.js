@@ -16,7 +16,7 @@
 				{k: 'books', v: '红楼梦，北方的空地，鲁迅，冯骥才', fa: 'fas fa-book', title: '最爱书籍', class: 'd-none'},
 				{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg', fa: 'fab fa-bitcoin', title: 'btc'},
 				{k: 'key', v: 'https://arcz.ee/pub.key', fa: 'fas fa-key', link: 'https://arcz.ee/pub.key'},
-				{k: 'phone', v: '13900000000', fa: 'fas fa-phone fa-flip-horizontal'},
+				{k: 'phone', v: '13200000000', fa: 'fas fa-phone fa-flip-horizontal', class: 'd-none'},
 			],
 			sn_t: '社交网络',
 			exp_t: '工作经历',
