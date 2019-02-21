@@ -40,6 +40,7 @@
 				'3 年 php 开发经验；熟悉 symfony 4, laravel, thinkphp 5 等框架；代码遵循 PSR-1, PSR-2, PSR-4 规范',
 				'掌握 html, css, 熟悉 javascript ，熟悉 bootstrap, vue.js 等前端框架',
 				'5 年 linux 运维经验， 精通 bash ，熟悉 httpd, nginx, NFS, samba, DHCP, DNS, FTP 等常用服务配置，了解负载均衡(lvs)',
+				'8 年企业内部软硬件、弱电、网络、系统、桌面维护经验',
 				'AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台维护使用经验',
 				'熟悉虚拟化(docker, kvm, VirtualBox)，熟悉自动化运维(ansible)',
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
