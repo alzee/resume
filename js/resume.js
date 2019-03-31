@@ -13,7 +13,7 @@
 				{k: 'loc', v: '远程，初创，杭州，上海', fa: 'fas fa-heart', title: 'would like', class: 'd-none'},
 				{k: 'itbooks', v: '编码-Petzold,浪潮之巅,黑客与画家,汇编语言-王爽', fa: 'fas fa-book', title: '最爱书籍', class: 'd-none'},
 				{k: 'github', v: 'https://github.com/z14', fa: 'fab fa-github', link: 'https://github.com/z14', title: 'github'},
-				{k: 'stackoverflow', v: 'https://stackoverflow.com/users/7714132/', fa: 'fab fa-stack-overflow', link: 'https://stackoverflow.com/users/7714132/', title: 'statckoverflow'},
+				{k: 'stackoverflow', v: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow', link: 'https://stackoverflow.com/users/7714132', title: 'statckoverflow'},
 				{k: 'books', v: '红楼梦，北方的空地，鲁迅，冯骥才', fa: 'fas fa-book', title: '最爱书籍', class: 'd-none'},
 				{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg', fa: 'fab fa-bitcoin', title: 'btc', class: 'd-none'},
 				{k: 'key', v: 'https://arcz.ee/pub.key', fa: 'fas fa-key', link: 'https://arcz.ee/pub.key'},
