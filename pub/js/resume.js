@@ -16,7 +16,7 @@
 				{k: 'stackoverflow', v: 'https://stackoverflow.com/users/7714132/z14', fa: 'fab fa-stack-overflow', link: 'https://stackoverflow.com/users/7714132/z14', title: 'statckoverflow'},
 				{k: 'books', v: '红楼梦，北方的空地，鲁迅，冯骥才', fa: 'fas fa-book', title: '最爱书籍', class: 'd-none'},
 				{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg', fa: 'fab fa-bitcoin', title: 'btc', class: 'd-none'},
-				{k: 'irc', v: 'z14@freenode z14@rizon', fa: 'fab fa-irc', title: 'irc'},
+				{k: 'irc', v: 'z14@freenode/rizon', fa: 'fab fa-irc', title: 'irc'},
 				{k: 'key', v: 'https://arcz.ee/pubkey', fa: 'fas fa-key', link: 'https://arcz.ee/pubkey'},
 				{k: 'phone', v: 'Kzg2IDEzMiAwNzI2IDIwMTE=', fa: 'fas fa-phone'},
 			],
