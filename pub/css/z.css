@@ -1,4 +1,4 @@
-.fa-phone:before {
+.fa-phone:before{
 	content: "\f1d7  \f095";
 	font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
 }
@@ -17,4 +17,11 @@ img{
 }
 .progress-bar{
 	background-color: #b9bfc5 !important;
+}
+.fa-irc:before{
+	content: "IRC ";
+	font-weight: 900;
+}
+.fa-irc{
+	font-family: unset;
 }
