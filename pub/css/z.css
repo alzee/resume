@@ -19,7 +19,7 @@ img{
 	background-color: #b9bfc5 !important;
 }
 .fa-irc:before{
-	content: "IRC ";
+	content: "IRC";
 	font-weight: 900;
 }
 .fa-irc{
