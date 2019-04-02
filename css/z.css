@@ -1,0 +1,20 @@
+.fa-phone:before {
+	content: "\f1d7  \f095";
+	font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+}
+h1{
+	font-size: 2rem;
+}
+img{
+	width: 7.5rem;
+}
+#chlang{
+	top: 0;
+	right: 1rem;
+}
+#more svg{
+	width: 20px !important;
+}
+.progress-bar{
+	background-color: #b9bfc5 !important;
+}
