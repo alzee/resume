@@ -25,3 +25,8 @@ img{
 .fa-irc{
 	font-family: unset;
 }
+.withicon{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
