@@ -23,7 +23,7 @@
 			sn_t: '社交网络',
 			exp_t: '工作经历',
 			edu_t: '教育经历',
-			intro: '熟悉企业软硬件及网络运维。擅长 Linux 系统工程，熟悉 Fedora, Debian, RedHat/CentOS, LFS 等。有 web 开发经验，主技术栈为 php, symfony 4, twig, bootstrap 4, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。具备团队组织协调能力。可兼职。专业、高效、简练、果敢、沉着、细致、好学、求真。',
+			intro: '擅长 *nix 系统工程，熟悉 FreeBSD, Fedora, Debian, RedHat/CentOS, LFS 。有 web 开发经验，主技术栈为 php, symfony, twig, bootstrap, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。熟悉企业软硬件及网络运维。具备团队组织协调能力。可兼职。专业、高效、简练、果敢、沉着、细致、好学、求真。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: '语言： ',
@@ -39,7 +39,7 @@
 			],
 			skills_t: '技 能',
 			skills: [
-				'3 年 php 开发经验；熟悉 symfony 4, laravel, thinkphp 5 等框架；代码遵循 PSR-1, PSR-2, PSR-4 规范',
+				'3 年 php 开发经验；熟悉 symfony , laravel 等框架；代码遵循 PSR-1, PSR-2, PSR-4 规范',
 				'掌握 html, css, 熟悉 javascript ，熟悉 bootstrap, vue.js 等前端框架',
 				'5 年 linux 运维经验， 精通 bash ，熟悉 httpd, nginx, NFS, samba, DHCP, DNS, FTP 等常用服务配置，了解负载均衡(lvs)',
 				'AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台维护使用经验',
