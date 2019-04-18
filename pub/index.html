@@ -26,7 +26,11 @@
 	</section>
 		
 	<section class="container" id="main">
-		loading...
+		<div class="justify-content-center d-flex">
+			<div class="mt-5 spinner-grow text-secondary" role="status">
+				<span class="sr-only">Loading...</span>
+			</div>
+		</div>
 	</section>
 
 	<footer>
@@ -128,6 +132,18 @@
 			</ul>
 		</div>
 			{{/po}}
+
+		<div class="bg-light rounded my-3 py-2 text-center text">
+			<strong>{{fun_t}}</strong>
+		</div>
+
+		<div>
+			<ul class="pl-3">
+				{{#fun}}
+				<li>{{.}}</li>
+				{{/fun}}
+			</ul>
+		</div>
 
 		<div class="bg-light rounded my-3 py-2 text-center text">
 			<strong>{{more_t}}</strong>

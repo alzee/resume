@@ -45,8 +45,7 @@
 				'AWS , GCP , Azure , Vultr , DigitalOcean , 阿里云等云平台维护使用经验',
 				'熟悉虚拟化(docker, kvm, VirtualBox)，熟悉自动化运维(ansible)',
 				'8 年企业内部软硬件、弱电、网络、系统、桌面维护经验',
-				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
-				'当地田协会员，完成多次马拉松赛事'
+				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译'
 			],
 			exps: [
 				{
@@ -145,6 +144,16 @@
 					]
 				},
 			],
+			fun_t : '趣事',
+			fun: [
+				'春节在人迹罕至的青海湖骑行一圈；去之前不会骑自行车',
+				'用免费的语音呼叫 API 恶作剧骚扰朋友',
+				'跑步结婚上头条',
+				'完成一次全程马拉松；完成一次半程马拉松；完成一次山地越野赛',
+				'戒烟；戒酒',
+				'用盗来的 QQ 币给自己买一套警服 QQ 秀，然后留言“请及时修改密码”',
+				'魔兽世界 TBC 时期一区罗宁人称术神；分享宏成为 NGA 热帖'
+			],
 			more_t : '更 多',
 			more: [
 				'崇尚命令行。bash + screen + vim 作 IDE ，cmus 听歌，用 ImageMagick 压缩图片，用 nmcli 管理网络，用 transmission-remote BT，pacmd 切换耳机音响，gsettings 配置系统，用 oathtool 生成 OTP 动态密码，irssi 上 irc ，只玩 nethack 和 myman ，chrome 装 cVim 扩展，用 i3 替代 gnome	……',
@@ -170,6 +179,7 @@
 	resume.en.po_t = 'portfolio';
 	//resume.en.about.loc.v= 'remote, startups, hangzhou, shanghai';
 	//resume.en.edu = 'self-taught';
+	resume.en.fun_t = 'fun';
 	resume.en.more_t = 'more';
 
 	var lang = (navigator.language || navigator.userLanguage).substr(0, 2);
