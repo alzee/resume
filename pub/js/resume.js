@@ -2,7 +2,7 @@
 	var resume = {
 		zh: {
 			title: '简 历',
-			name: 'Al Zee',
+			name: '张子安',
 			role: 'web 开发工程师，linux 系统工程师，IT 主管',
 			about_t: '简 介',
 			about: [
