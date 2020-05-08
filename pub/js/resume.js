@@ -3,21 +3,21 @@
 		zh: {
 			title: '简 历',
 			name: '侯 斐',
-			role: 'web 开发工程师，linux 系统工程师，IT 主管；可兼职',
+			role: 'web 开发工程师，linux 系统工程师，IT 主管',
 			about_t: '简 介',
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash, c, assembly', fa: 'fas fa-code', title: 'language', class: 'withicon'},
-				{k: 'mail', v: 'job@arcz.ee', fa: 'fas fa-envelope', link: 'mailto:job@arcz.ee', title: 'email: ', class: 'withicon'},
+				{k: 'mail', v: 'job@alz.ee', fa: 'fas fa-envelope', link: 'mailto:job@alz.ee', title: 'email: ', class: 'withicon'},
 				{k: 'devenv', v: 'bash + screen + vim, fedora', fa: 'fas fa-desktop', title: 'devel env', class: 'withicon'},
-				{k: 'site', v: 'https://arcz.ee', fa: 'fas fa-link', link: 'https://arcz.ee', title: 'website: ', class: 'withicon'},
+				{k: 'site', v: 'https://alz.ee', fa: 'fas fa-link', link: 'https://alz.ee', title: 'website: ', class: 'withicon'},
 				{k: 'loc', v: '远程，初创，杭州，上海', fa: 'fas fa-heart', title: 'would like', class: 'withicon d-none'},
 				{k: 'itbooks', v: '编码-Petzold,浪潮之巅,黑客与画家,汇编语言-王爽', fa: 'fas fa-book', title: '最爱书籍', class: 'withicon d-none'},
-				{k: 'github', v: 'https://github.com/z14', fa: 'fab fa-github', link: 'https://github.com/z14', title: 'github', class: 'withicon'},
-				{k: 'stackoverflow', v: 'https://stackoverflow.com/users/7714132/z14', fa: 'fab fa-stack-overflow', link: 'https://stackoverflow.com/users/7714132/z14', title: 'statckoverflow', class: 'withicon'},
+				{k: 'github', v: 'https://github.com/alzee', fa: 'fab fa-github', link: 'https://github.com/alzee', title: 'github', class: 'withicon'},
+				{k: 'stackoverflow', v: 'https://stackoverflow.com/users/7714132/alzee', fa: 'fab fa-stack-overflow', link: 'https://stackoverflow.com/users/7714132/alzee', title: 'statckoverflow', class: 'withicon'},
 				{k: 'books', v: '红楼梦，北方的空地，鲁迅，冯骥才', fa: 'fas fa-book', title: '最爱书籍', class: 'withicon d-none'},
 				{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg', fa: 'fab fa-bitcoin', title: 'btc', class: 'withicon d-none'},
-				{k: 'irc', v: 'z14@freenode/rizon', fa: 'fab fa-irc', title: 'irc', class: 'withicon'},
-				{k: 'key', v: 'https://arcz.ee/pubkey', fa: 'fas fa-key', link: 'https://arcz.ee/pubkey', class: 'withicon'},
+				{k: 'irc', v: 'alzee@freenode/rizon', fa: 'fab fa-irc', title: 'irc', class: 'withicon'},
+				{k: 'key', v: 'https://alz.ee/pubkey', fa: 'fas fa-key', link: 'https://alz.ee/pubkey', class: 'withicon'},
 				{k: 'phone', v: 'Kzg2IDEzMiAwNzI2IDIwMTE=', fa: 'fas fa-phone', class: 'withicon'},
 			],
 			sn_t: '社交网络',
@@ -75,13 +75,13 @@
 			],
 			edu: '自学。大专未毕业，非计算机专业，无培训经历',
 			sns: [
-				{name: 'z14', link: 'https://github.com/z14', fa: 'fab fa-github'},
-				{name: 'z14', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
-				{name: 'z14', link: 'https://webchat.freenode.net', fa: 'fas fa-hashtag'},
+				{name: 'alzee', link: 'https://github.com/alzee', fa: 'fab fa-github'},
+				{name: 'alzee', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
+				{name: 'alzee', link: 'https://webchat.freenode.net', fa: 'fas fa-hashtag'},
 				{name: 'Arc-Zee', link: 'https://www.quora.com/profile/Arc-Zee', fa: 'fab fa-quora'},
 				{name: 'ArcTod', link: 'https://twitter.com/arctod', fa: 'fab fa-twitter'},
 				{name: 'ArcTod', link: 'https://www.facebook.com/ArcTod', fa: 'fab fa-facebook'},
-				{name: 'ArcZee', link: 'https://www.linkedin.com/in/arczee/', fa: 'fab fa-linkedin'},
+				{name: 'ArcZee', link: 'https://www.linkedin.com/in/alzee/', fa: 'fab fa-linkedin'},
 				//{name: 'dotcra', link: '#', fa: 'fab fa-weixin'},
 			],
 			po_t: '作 品',
@@ -163,7 +163,7 @@
 	//resume.en = Object.assign({}, resume.zh);	// not supported by ie
 	resume.en = JSON.parse(JSON.stringify(resume.zh));
 	resume.en.title = 'résumé';
-	resume.en.name = 'Arc Zee';
+	resume.en.name = 'Al Zee';
 	resume.en.role = 'web developer, linux administrator, IT supervisor';
 	resume.en.about_t = 'about';
 	resume.en.skills_t = 'skills';
