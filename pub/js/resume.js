@@ -95,7 +95,7 @@
 						'前端采用 bootstrap 4 搭配原生 javascript ，并大量采用 ajax 以提高用户体验',
 						'导入 xls 至数据库的功能在服务器端完成，由 PhpSpreadsheet 实现',
 						'将页面 table 导出至 xls 在客户端完成，由 js-xlsx 实现',
-						'用 git (updateInstead) 发布'
+						'用 git (Push to deploy) 发布'
 					],
 					job: [
 						'该项目由本人独立完成，职责包括但不限于：',
