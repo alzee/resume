@@ -23,7 +23,7 @@
 			sn_t: '社交网络',
 			exp_t: '工作经历',
 			edu_t: '教育经历',
-			intro: '擅长 *nix 系统工程，熟悉 FreeBSD, Fedora, Debian, RHEL/CentOS, LFS 。有 web 开发经验，主技术栈为 php, symfony, twig, bootstrap, vue.js, mustache.js 及原生 javascript ，后端方向，可做全栈，可独立开发。熟悉企业软硬件及网络运维。',
+			intro: '擅长 *nix 系统工程，熟悉 FreeBSD, Fedora, Debian, RHEL/CentOS, LFS 。熟悉 LAMP/LEMP , symfony, twig, bootstrap, javascript, vue.js, mustache.js 。有 web 开发经验，后端方向，可做全栈，可独立开发。熟悉企业软硬件及网络运维。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: '语言： ',
