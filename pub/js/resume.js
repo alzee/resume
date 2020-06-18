@@ -8,7 +8,7 @@
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash, c, assembly', fa: 'fas fa-code', title: 'language', class: 'withicon'},
 				{k: 'mail', v: 'job@alz.ee', fa: 'fas fa-envelope', link: 'mailto:job@alz.ee', title: 'email: ', class: 'withicon'},
-				{k: 'devenv', v: 'bash + screen + vim, fedora', fa: 'fas fa-desktop', title: 'devel env', class: 'withicon'},
+				{k: 'devenv', v: 'fedora, i3wm, screen, bash, vim', fa: 'fas fa-desktop', title: 'devel env', class: 'withicon'},
 				{k: 'site', v: 'https://alz.ee', fa: 'fas fa-link', link: 'https://alz.ee', title: 'website: ', class: 'withicon'},
 				{k: 'loc', v: '远程，初创，杭州，上海', fa: 'fas fa-heart', title: 'would like', class: 'withicon d-none'},
 				{k: 'itbooks', v: '编码-Petzold,浪潮之巅,黑客与画家,汇编语言-王爽', fa: 'fas fa-book', title: '最爱书籍', class: 'withicon d-none'},
