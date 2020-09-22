@@ -96,7 +96,7 @@
                         'Drupal 8.4 就已抛弃 IE9/10，故采用 8.3.9 。 模块 ctools, entity, token, pathauto, easy_breadcrumb, login_redirect_per_role, permissions_by_term, video',
                         '另自建模块将账号显示替换成姓名',
                         '使用 bootstrap3, jquery1, slick-carousel',
-						'服务器为内部机房联想万全R680G7，原系统 Windows 2008 R2。两块硬盘，配置 RAID1，安装 Debian10, httpd, php7.3(Drupal 版本较老，php7.4会报错), mariadb'
+						'服务器为内部机房联想万全R680G7，原系统 Windows 2008 R2。两块硬盘，配置 RAID1，安装 Debian10, httpd, php7.3(Drupal 版本较老，php7.4会报错), MariaDB'
 					],
 					job: [
 						'独立完成，职责包括但不限于：',
@@ -114,7 +114,7 @@
 					date: '2018.03 - 2018.04',
 					desc: [
 						'集中管理全区 100 个重点投资项目，由全区各部门上报、查询及更新；设立锁定日期，进度考核，生成“未上报”、“数据雷同”等警告信息；生成统计数据，并提供报表导入导出功能',
-						'用 php 开发，框架为 symfony 4 ，数据库 mariaDB，操作系统 Debian 9.4 ，服务器选用阿里云华东1机房及谷歌云(GCP)台湾机房',
+						'用 php 开发，框架为 symfony 4 ，数据库 MariaDB，操作系统 Debian 9.4 ，服务器选用阿里云华东1机房及谷歌云(GCP)台湾机房',
 						'前端采用 bootstrap 4 搭配原生 javascript ，并大量采用 ajax 以提高用户体验',
 						'导入 xls 至数据库的功能在服务器端完成，由 PhpSpreadsheet 实现',
 						'将页面 table 导出至 xls 在客户端完成，由 js-xlsx 实现',
@@ -155,7 +155,7 @@
 					desc: [
 						'前期采用 wordpress ，2013 年切换成 drupal ，搭配 ctools(API), honeypot(反垃圾), imce(文件管理), metatag(SEO), pathauto(自定义url), token 等模块，实现完整的博客系统',
 						'在默认主题 Bartik 基础上开发子主题',
-						'操作系统 Debian ，数据库 mariaDB ，服务器选用 digitalocean 的 sfo2 机房及 vultr 东京机房，利用 CloudFlare CDN 进行加速'
+						'操作系统 Debian ，数据库 MariaDB ，服务器选用 digitalocean 的 sfo2 机房及 vultr 东京机房，利用 CloudFlare CDN 进行加速'
 					],
 					job: [
 						'独立完成，职责包括但不限于：',
