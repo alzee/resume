@@ -23,7 +23,7 @@
 			sn_t: '社交网络',
 			exp_t: '工作经历',
 			edu_t: '教育经历',
-			intro: '擅长 *nix 系统工程，熟悉 FreeBSD, Fedora, Debian, RHEL/CentOS, LFS 。熟悉 LAMP/LEMP , symfony, twig, bootstrap, javascript, vue.js, mustache.js 。有 web 开发经验，后端方向，可做全栈，可独立开发。熟悉企业软硬件及网络运维。',
+			intro: '擅长 *nix 系统工程，多年 DevOps 经验，熟悉 web 全栈开发。独立开发并维护茅箭区投资项目直报平台、武警十堰支队内部网站、郧西县人民法院内部网站等项目。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: '语言： ',
@@ -32,16 +32,17 @@
 				{name: 'php', percent: '80%'},
 				{name: 'python', percent: '40%'},
 				{name: 'bash', percent: '85%'},
-				{name: 'vue.js', percent: '70%'},
+				{name: 'drupal', percent: '70%'},
 				{name: 'symfony', percent: '60%'},
 				{name: 'bootstrap', percent: '90%'},
 				{name: 'sql', percent: '55%'},
 			],
 			skills_t: '技 能',
 			skills: [
-				'3 年 php 开发经验；熟悉 symfony , laravel 等框架；代码遵循 PSR-1, PSR-2, PSR-4 规范',
-				'掌握 html, css, 熟悉 javascript ，熟悉 bootstrap, vue.js 等前端框架',
-				'5 年 linux 运维经验， 精通 bash ，熟悉 httpd, nginx, NFS, samba, DHCP, DNS, FTP 等常用服务配置，了解负载均衡(lvs)',
+                '熟悉 FreeBSD, Fedora, Debian, RHEL/CentOS, LFS',
+				'8 年 Linux 运维经验； 熟悉 bash, httpd, nginx, mysql, NFS, samba, DHCP, DNS, FTP',
+				'5 年 php 开发经验；熟悉 drupal, symfony, laravel, twig',
+				'熟悉 html, css, bootstrap, javascript, vue.js, mustache.js',
 				'AWS , GCP , Azure , Vultr , DigitalOcean , Lightsail , Cloudflare 等云平台开发维护经验',
 				'熟悉虚拟化(docker, kvm, VirtualBox)，熟悉自动化运维(ansible)',
 				'8 年企业内部软硬件、弱电、网络、系统、桌面维护经验',
@@ -87,7 +88,30 @@
 			po_t: '作 品',
 			po: [
 				{
-					name: '某区政府投资项目直报平台',
+					name: '郧西县人民法院内部网站',
+					date: '2020.07 - 2020.08',
+					desc: [
+                        '全国法院系统内网网站',
+                        '由于内网环境、数据敏感、禁用U盘等情况，IE8/9使用较普遍，必须考虑浏览器兼容性',
+                        'Drupal 8.4 就已抛弃 IE9/10，故采用 8.3.9 。 模块 ctools, entity, token, pathauto, easy_breadcrumb, login_redirect_per_role, permissions_by_term, video',
+                        '另自建模块将账号显示替换成姓名',
+                        '使用 bootstrap3, jquery1, slick-carousel',
+						'服务器为内部机房联想万全R680G7，原系统 Windows 2008 R2。两块硬盘，配置 RAID1，安装 Debian10, httpd, php7.3(Drupal 版本较老，php7.4会报错), mariadb'
+					],
+					job: [
+						'独立完成，职责包括但不限于：',
+						'客户需求、方案定制、项目上线、组织培训',
+						'本地搭建测试环境',
+						'php 代码设计、编写、测试',
+						'前端设计、编写、测试',
+						'数据库设计',
+						'服务器部署 (git) 与维护',
+						'数据库备份方案',
+						'项目后续维护',
+					]
+				},
+				{
+					name: '茅箭区投资项目直报平台',
 					date: '2018.03 - 2018.04',
 					desc: [
 						'集中管理全区 100 个重点投资项目，由全区各部门上报、查询及更新；设立锁定日期，进度考核，生成“未上报”、“数据雷同”等警告信息；生成统计数据，并提供报表导入导出功能',
@@ -98,7 +122,7 @@
 						'用 git (Push to deploy) 发布'
 					],
 					job: [
-						'该项目由本人独立完成，职责包括但不限于：',
+						'独立完成，职责包括但不限于：',
 						'客户需求、方案定制、项目上线、组织培训',
 						'本地搭建测试环境',
 						'php 代码设计、编写、测试',
@@ -135,7 +159,7 @@
 						'操作系统 Debian ，数据库 mariaDB ，服务器选用 digitalocean 的 sfo2 机房及 vultr 东京机房，利用 CloudFlare CDN 进行加速'
 					],
 					job: [
-						'该项目由本人独立完成，职责包括但不限于：',
+						'独立完成，职责包括但不限于：',
 						'本地搭建测试环境',
 						'基于默认主题 Bartik 基础上开发(html, css)子主题',
 						'用 composer 部署网站目录、模块安装',
