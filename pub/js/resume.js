@@ -96,7 +96,7 @@
                         'Drupal 8.4 就已抛弃 IE9/10，故采用 8.3.9 。 模块 ctools, entity, token, pathauto, easy_breadcrumb, login_redirect_per_role, permissions_by_term, video',
                         '另自建模块将账号显示替换成姓名',
                         '使用 bootstrap3, jquery1, slick-carousel',
-						'服务器为内部机房联想万全R680G7，原系统 Windows 2008 R2。两块硬盘，配置 RAID1，安装 Debian10, httpd, php7.3(Drupal 版本较老，php7.4会报错), MariaDB'
+						'服务器为内部机房联想万全R680G7，双硬盘，配置 RAID1，安装 Debian10, httpd, php7.3, MariaDB'
 					],
 					job: [
 						'独立完成，职责包括但不限于：',
