@@ -3,7 +3,7 @@
 		zh: {
 			title: '简 历',
 			name: 'Al Zee',
-			role: 'web 开发工程师，linux 系统工程师，IT 主管',
+			role: 'web 开发，linux 系统，IT 总监',
 			about_t: '简 介',
 			about: [
 				{k: 'proglang', v: 'javascript, php, python, bash, c, assembly', fa: 'fas fa-code', title: 'language', class: 'withicon'},
