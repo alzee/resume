@@ -74,7 +74,7 @@
 					job: '软硬件、网络、弱电项目销售、安装与维护'
 				}
 			],
-			edu: '自学。大专未毕业，非计算机专业，无培训经历',
+			edu: '自学。大专肆业，非计算机专业，无培训经历',
 			sns: [
 				{name: 'alzee', link: 'https://github.com/alzee', fa: 'fab fa-github'},
 				{name: 'alzee', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
@@ -92,10 +92,12 @@
 					date: '2020.08 - 2020.09',
 					desc: [
                         '新能源汽车车载电池管理系统',
-                        '地图位置，轨迹回放，实时监控，曲线图，设备控制，参数设置',
-                        '负责小程序端，原生开发，SOAP 接口，AES 加密',
-                        '服务器 Windows 2008 R2 配置 SSL 证书，IIS TLS 1.2',
 					],
+                    job: [
+                        '负责小程序端，原生开发，SOAP 接口，AES 加密',
+                        '地图位置，轨迹回放，实时监控，曲线图，设备控制，参数设置',
+                        '服务器 Windows 2008 R2 配置 SSL 证书，IIS TLS 1.2',
+                    ]
                 },
                 {
 					name: '郧西县人民法院内部网站',
