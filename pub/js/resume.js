@@ -46,7 +46,8 @@
 				'AWS , GCP , Azure , Vultr , DigitalOcean , Lightsail , Cloudflare 等云平台开发维护经验',
 				'熟悉虚拟化(docker, kvm, VirtualBox)，熟悉自动化运维(ansible)',
 				'8 年企业内部软硬件、弱电、网络、系统、桌面维护经验',
-				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译'
+				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
+				'魔兽世界怀旧服血色无冰箱一波流, alz14@bilibili'
 			],
 			exps: [
 				{
