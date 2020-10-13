@@ -1,7 +1,9 @@
+/*
 .fa-phone:before{
 	content: "\f1d7  \f095";
 	font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
 }
+*/
 h1{
 	font-size: 2rem;
 }
@@ -21,6 +23,7 @@ img{
 .fa-irc:before{
 	content: "IRC";
 	font-weight: 900;
+    font-size: 12px;
 }
 .fa-irc{
 	font-family: unset;
@@ -29,4 +32,7 @@ img{
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
+}
+i.fas, i.fab {
+    width: 20px;
 }
