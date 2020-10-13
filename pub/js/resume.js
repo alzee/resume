@@ -106,7 +106,7 @@
 					date: '2020.07 - 2020.08',
 					desc: [
                         '全国法院系统内网网站',
-                        '由于内网环境、数据敏感、禁用U盘等情况，IE8/9 使用较普遍，必须考虑浏览器兼容性',
+                        '内网环境，IE8/9 使用较普遍，须兼容',
                         'Drupal 8.4 就已抛弃 IE9/10，故采用 8.3.9 。 模块 ctools, entity, token, pathauto, easy_breadcrumb, login_redirect_per_role, permissions_by_term, video',
                         '另自建模块将账号显示替换成姓名',
                         '使用 bootstrap3, jquery1, slick-carousel',
