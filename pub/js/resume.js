@@ -16,7 +16,7 @@
 				{k: 'stackoverflow', v: 'https://stackoverflow.com/users/7714132/alzee', fa: 'fab fa-stack-overflow', link: 'https://stackoverflow.com/users/7714132/alzee', title: 'statckoverflow', class: 'withicon'},
 				{k: 'books', v: '红楼梦，北方的空地，鲁迅，冯骥才', fa: 'fas fa-book', title: '最爱书籍', class: 'withicon d-none'},
 				{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg', fa: 'fab fa-bitcoin', title: 'btc', class: 'withicon d-none'},
-				{k: 'irc', v: 'alzee@freenode/rizon', fa: 'fab fa-irc', title: 'irc', class: 'withicon'},
+				{k: 'irc', v: 'alzee@freenode/oftc/rizon', fa: 'fab fa-irc', title: 'irc', class: 'withicon'},
 				{k: 'key', v: 'https://alz.ee/pubkey', fa: 'fas fa-key', link: 'https://alz.ee/pubkey', class: 'withicon'},
 				{k: 'phone', v: 'Kzg2IDEzMiAwNzI2IDIwMTE=', fa: 'fas fa-phone', class: 'withicon'},
 			],
