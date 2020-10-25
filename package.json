@@ -1,22 +1,22 @@
 {
-  "name": "r",
-  "version": "1.0.0",
-  "description": "",
+  "name": "resume",
+  "version": "1.1.0",
+  "description": "Al Zee's résumé.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dotcra/resume.git"
+    "url": "git+https://github.com/alzee/resume.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dotcra/resume/issues"
+    "url": "https://github.com/alzee/resume/issues"
   },
-  "homepage": "https://github.com/Dotcra/resume#readme",
+  "homepage": "https://github.com/alzee/resume#readme",
   "dependencies": {
     "mustache": "^2.3.0"
   }
