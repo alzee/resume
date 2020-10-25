@@ -14,25 +14,22 @@ img{
 	top: 0;
 	right: 1rem;
 }
-#more svg{
-	width: 20px !important;
-}
 .progress-bar{
 	background-color: #b9bfc5 !important;
 }
-.fa-irc:before{
-	content: "IRC";
-	font-weight: 900;
-    font-size: 12px;
-}
-.fa-irc{
-	font-family: unset;
-}
-.withicon{
+#more > div{
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
+#more > div > span{
+	font-weight: 900;
+  font-size: 12px;
+}
 i.fas, i.fab {
-    width: 20px;
+  width: 20px;
+}
+.fa-svg {
+  width: 20px;
+  height: 16px;
 }

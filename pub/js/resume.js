@@ -10,19 +10,16 @@
 			role: 'web 开发，linux 系统，IT 总监',
 			about_t: '简 介',
 			about: [
-				{k: 'proglang', v: 'javascript, php, python, bash, c, assembly', fa: 'fas fa-code', title: 'language', class: 'withicon'},
-				{k: 'mail', v: 'job@alz.ee', fa: 'fas fa-envelope', link: 'mailto:job@alz.ee', title: 'email: ', class: 'withicon'},
-				{k: 'devenv', v: 'fedora, i3wm, screen, bash, vim', fa: 'fas fa-desktop', title: 'devel env', class: 'withicon'},
-				{k: 'site', v: 'https://alz.ee', fa: 'fas fa-link', link: 'https://alz.ee', title: 'website: ', class: 'withicon'},
-				{k: 'loc', v: '远程，初创，杭州，上海', fa: 'fas fa-heart', title: 'would like', class: 'withicon d-none'},
-				{k: 'itbooks', v: '编码-Petzold,浪潮之巅,黑客与画家,汇编语言-王爽', fa: 'fas fa-book', title: '最爱书籍', class: 'withicon d-none'},
-				{k: 'github', v: 'https://github.com/alzee', fa: 'fab fa-github', link: 'https://github.com/alzee', title: 'github', class: 'withicon'},
-				{k: 'stackoverflow', v: 'https://stackoverflow.com/users/7714132/alzee', fa: 'fab fa-stack-overflow', link: 'https://stackoverflow.com/users/7714132/alzee', title: 'statckoverflow', class: 'withicon'},
-				{k: 'books', v: '红楼梦，北方的空地，鲁迅，冯骥才', fa: 'fas fa-book', title: '最爱书籍', class: 'withicon d-none'},
-				{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg', fa: 'fab fa-bitcoin', title: 'btc', class: 'withicon d-none'},
-				{k: 'irc', v: 'alzee@freenode/oftc/rizon', fa: 'fab fa-irc', title: 'irc', class: 'withicon'},
-				{k: 'key', v: 'https://alz.ee/pubkey', fa: 'fas fa-key', link: 'https://alz.ee/pubkey', class: 'withicon'},
-				{k: 'phone', v: 'Kzg2IDEzMiAwNzI2IDIwMTE=', fa: 'fas fa-phone', class: 'withicon'},
+				{k: 'code', v: 'javascript, php, python, bash, c, assembly'},
+				{k: 'envelope', v: 'job@alz.ee', link: 'mailto:job@alz.ee'},
+				{k: 'desktop', v: 'fedora, i3wm, screen, bash, vim'},
+				{k: 'link', v: 'https://alz.ee', link: 'https://alz.ee'},
+				{k: 'github', v: 'https://github.com/alzee', link: 'https://github.com/alzee'},
+				{k: 'stack-overflow', v: 'https://stackoverflow.com/users/7714132/alzee', link: 'https://stackoverflow.com/users/7714132/alzee'},
+				{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg', class: ' d-none'},
+				{t: 'IRC', v: 'alzee@freenode/oftc/rizon'},
+				{k: 'key', v: 'https://alz.ee/pubkey', link: 'https://alz.ee/pubkey'},
+				{k: 'phone', v: 'Kzg2IDEzMiAwNzI2IDIwMTE='},
 			],
 			sn_t: '社交网络',
 			exp_t: '工作经历',
@@ -46,7 +43,7 @@
                 '熟悉 FreeBSD, Fedora, Debian, RHEL/CentOS, LFS',
 				'8 年 Linux 运维经验； 熟悉 bash, httpd, nginx, mysql, NFS, samba, DHCP, DNS, FTP',
 				'5 年 php 开发经验；熟悉 drupal, symfony, laravel, twig',
-				'熟悉 html, css, bootstrap, javascript, angular, vue.js, mustache.js',
+				'熟悉 html, css, bootstrap, javascript, angular, vue.js',
 				'AWS, GCP, Azure, Vultr, DigitalOcean, Lightsail, Cloudflare 等云平台开发维护经验',
 				'熟悉虚拟化(docker, kvm, VirtualBox)，熟悉自动化运维(ansible)',
 				'8 年企业内部软硬件、弱电、网络、系统、桌面维护经验',
@@ -55,10 +52,6 @@
 				'魔兽世界怀旧服血色无冰箱一波流, b站ID: alz14'
 			],
 			exps: [
-				{
-					//com: '自由职业，2018.9-',
-					//job: '自由职业'
-				},
 				{
 					com: '创业，2016.5-至今，合伙人、程序员',
 					job: '自主创业，从事软件外包，主营网站开发、小程序、公众号'
