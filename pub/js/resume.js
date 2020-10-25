@@ -45,7 +45,7 @@
 				'5 年 php 开发经验；熟悉 drupal, symfony, laravel, twig',
 				'熟悉 html, css, bootstrap, javascript, angular, vue.js',
 				'AWS, GCP, Azure, Vultr, DigitalOcean, Lightsail, Cloudflare 等云平台开发维护经验',
-				'熟悉虚拟化(docker, kvm, VirtualBox)，熟悉自动化运维(ansible)',
+				//'熟悉虚拟化(docker, kvm, VirtualBox)，熟悉自动化运维(ansible)',
 				'8 年企业内部软硬件、弱电、网络、系统、桌面维护经验',
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
                 '马拉松 & 环青海湖骑行',
@@ -128,7 +128,7 @@
 					desc: [
 						'集中管理全区 100 个重点投资项目，由全区各部门上报、查询及更新；设立锁定日期，进度考核，生成“未上报”、“数据雷同”等警告信息；生成统计数据，并提供报表导入导出功能',
 						'用 php 开发，框架为 symfony 4 ，数据库 MariaDB，操作系统 Debian 9.4 ，服务器选用阿里云华东1机房及谷歌云(GCP)台湾机房',
-						'前端采用 bootstrap 4 搭配原生 javascript ，并大量采用 ajax 以提高用户体验',
+						'前端 bootstrap 4 ，原生 javascript ，采用 ajax 以提高用户体验',
 						'导入 xls 至数据库的功能在服务器端完成，由 PhpSpreadsheet 实现',
 						'将页面 table 导出至 xls 在客户端完成，由 js-xlsx 实现',
 						'用 git (Push to deploy) 发布'
