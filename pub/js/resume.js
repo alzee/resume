@@ -16,7 +16,7 @@
 				{k: 'link', v: 'https://alz.ee', link: 'https://alz.ee'},
 				{k: 'github', v: 'https://github.com/alzee', link: 'https://github.com/alzee'},
 				{k: 'stack-overflow', v: 'https://stackoverflow.com/users/7714132/alzee', link: 'https://stackoverflow.com/users/7714132/alzee'},
-				{h: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg'},
+				//{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg'},
 				{t: 'IRC', v: 'alzee@freenode/oftc/rizon'},
 				{k: 'key', v: 'https://alz.ee/pubkey', link: 'https://alz.ee/pubkey'},
 				{k: 'phone', v: 'Kzg2IDEzMiAwNzI2IDIwMTE='},
