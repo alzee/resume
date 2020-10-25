@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/alzee/resume#readme",
   "dependencies": {
-    "mustache": "^2.3.0"
+    "mustache": "^2.3.2"
   }
 }
