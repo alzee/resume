@@ -1,4 +1,8 @@
 (function() {
+    // parses template ahead of time
+    var tpl = document.getElementById('tpl').innerHTML;
+    Mustache.parse(tpl);
+
 	var resume = {
 		zh: {
 			title: '简 历',
@@ -225,21 +229,18 @@
 	en.addEventListener('click', ch);
 	zh.addEventListener('click', ch);
 
+    var title = document.getElementById('title');
+    var main = document.getElementById('main');
+    
 	ch(lang);
 
 	function ch(){
 		if (arguments[0] !== lang) {
 			lang = this.innerText;
 		}
-		var tpl = document.getElementById('tpl');
 		
-		Mustache.parse(tpl.innerHTML);
+		main.innerHTML = Mustache.render(tpl, resume[lang]);
 
-		var main = document.getElementById('main');
-		
-		main.innerHTML = Mustache.render(tpl.innerHTML, resume[lang]);
-
-		var title = document.getElementById('title');
 		title.innerText = resume[lang].title;
 
 		en.classList.remove('active');
