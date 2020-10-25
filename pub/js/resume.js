@@ -7,7 +7,7 @@
 		zh: {
 			title: '简 历',
 			name: 'Al Zee',
-			role: 'web 开发，linux 系统，IT 总监',
+			role: 'web 开发，linux 系统',
 			about_t: '简 介',
 			about: [
 				{k: 'code', v: 'javascript, php, python, bash, c, assembly'},
@@ -201,7 +201,7 @@
 	resume.en = JSON.parse(JSON.stringify(resume.zh));
 	resume.en.title = 'résumé';
 	resume.en.name = 'Al Zee';
-	resume.en.role = 'web developer, linux administrator, IT supervisor';
+	resume.en.role = 'web developer, linux administrator';
 	resume.en.about_t = 'about';
 	resume.en.skills_t = 'skills';
 	resume.en.sn_t = 'social network';
