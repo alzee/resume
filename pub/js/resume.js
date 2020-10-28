@@ -7,7 +7,7 @@
 		zh: {
 			title: '简 历',
 			name: 'Al Zee',
-			role: '全栈开发 & DevOps',
+			role: 'DevOps & 全栈开发 ',
 			about_t: '简 介',
 			about: [
 				{k: 'code', v: 'javascript, php, python, bash, c, assembly'},
@@ -24,7 +24,7 @@
 			sn_t: '社交网络',
 			exp_t: '工作经历',
 			edu_t: '教育经历',
-			intro: '擅长 *nix 系统工程，多年 DevOps 经验，熟悉 web 全栈开发。独立开发维护茅箭区投资项目直报平台、武警十堰支队内部网站、郧西县人民法院内部网站等项目。',
+			intro: '擅长 *nix 系统，多年 DevOps 经验，熟悉全栈开发。独立开发维护茅箭区投资项目直报平台、武警十堰支队内部网站、郧西县人民法院内部网站等项目。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: '语言： ',
@@ -201,7 +201,8 @@
 	resume.en = JSON.parse(JSON.stringify(resume.zh));
 	resume.en.title = 'résumé';
 	resume.en.name = 'Al Zee';
-	resume.en.role = 'Full Stack Development & DevOps Engineering';
+	resume.en.role = 'DevOps Engineering & Full Stack Development';
+	resume.en.intro= 'Self-motivated DevOps engineer with strong professional ethics and enthusiasm. Also experienced in Full-stack development.';
 	resume.en.about_t = 'about';
 	resume.en.skills_t = 'skills';
 	resume.en.sn_t = 'social network';
