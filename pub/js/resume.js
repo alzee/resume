@@ -24,7 +24,7 @@
 			sn_t: '社交网络',
 			exp_t: '工作经历',
 			edu_t: '教育经历',
-			intro: '擅长 *nix 系统，多年 DevOps 经验，熟悉全栈开发。独立开发维护茅箭区投资项目直报平台、武警十堰支队内部网站、郧西县人民法院内部网站等项目。',
+			intro: '擅长 *nix 系统，多年 DevOps 经验，熟悉全栈开发。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
 			proglang_t: '语言： ',
@@ -46,14 +46,13 @@
                 '3+ years as Full Stack Developer',
                 'Linux: Fedora, Debian, RHEL/CentOS, LFS. And FreeBSD',
                 'Services: httpd, nginx, mysql/mariadb, redis, nfs, samba, dns, ftp',
-                'Frameworks: laravel, symfony, drupal, wordpress, angular, vue.js, bootstrap',
+                'Frameworks: symfony, drupal, laravel, angular, vue.js, react, bootstrap',
                 'Languages: php, bash, python, javascript, c, css, html',
                 'Clouds: AWS, GCP, Azure, Vultr, DigitalOcean, Lightsail, Cloudflare',
                 'Virtualization: KVM, VirtualBox, Docker',
                 'Tools: git, github, ansible, i3wm, screen, vim, npm, composer',
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
                 '马拉松 & 环青海湖骑行',
-				'魔兽世界怀旧服血色无冰箱一波流, b站ID: alz14'
 			],
 			exps: [
 				{
@@ -91,7 +90,7 @@
 			po_t: '作 品',
 			po: [
                 {
-					name: '郧西县人民法院内部网站',
+					name: '某人民法院内网网站',
 					date: '2020.07 - 2020.08',
 					desc: [
                         '全国法院系统内网网站',
@@ -114,7 +113,7 @@
 					]
 				},
 				{
-					name: '茅箭区投资项目直报平台',
+					name: '某区政府投资项目直报平台',
 					date: '2018.03 - 2018.04',
 					desc: [
 						'集中管理全区 100 个重点投资项目，由全区各部门上报、查询及更新；设立锁定日期，进度考核，生成“未上报”、“数据雷同”等警告信息；生成统计数据，并提供报表导入导出功能',
@@ -177,6 +176,7 @@
                 '戒烟；戒酒',
                 '用盗来的 QQ 币给自己买一套警服 QQ 秀，然后留言“请及时修改密码”',
                 '魔兽世界 TBC 时期一区罗宁人称术神；分享宏成为 NGA 热帖',
+				'魔兽世界怀旧服血色无冰箱一波流, b站ID: alz14',
                 '崇尚命令行。bash + screen + vim 作 IDE ，cmus 听歌，用 ImageMagick 压缩图片，用 nmcli 管理网络，用 transmission-remote BT，pacmd 切换耳机音响，gsettings 配置系统，用 oathtool 生成 OTP 动态密码，irssi 上 irc ，只玩 nethack 和 myman ，chrome 装 cVim 扩展，用 i3 替代 gnome	……',
                 '如果一件事要做3次以上，一定要写一个函数/脚本，比如自签名证书，比如用 ssh tunnel 翻墙，比如改 cloudflare 的记录，比如每隔半年安装最新的 Fedora ，然后通过脚本恢复所有设置。(为什么重装？ 不是可以用 dnf 升级么？因为我的系统仅有 1700+ packages ，用 dnf 升级就要 100 分钟。而重装 10 分钟，跑一遍脚本 25 分钟，一起只要 35 分钟。而且，重装才有“新“的感觉。)',
                 '为了使用便捷，常用命令都要用函数封装，函数名一个字母，no more tab 。比如写一个函数 g() 来代替 git ，不带参数就是 git status , g c msg 则是 git add. ; git commit -m msg ; git push，如果没有 msg 就用 placeholder , 还可以加入一些机制来阻止 push 。再比如 alias v="command vim" ; alias vim="sudo vim" 。'
