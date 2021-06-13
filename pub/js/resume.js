@@ -18,7 +18,7 @@
 				{k: 'rocketchat-brands', v: 'https://chat.alz.ee', link: 'https://chat.alz.ee'},
 				{k: 'github', v: 'https://github.com/alzee', link: 'https://github.com/alzee'},
 				{k: 'stack-overflow', v: 'https://stackoverflow.com/users/7714132/alzee', link: 'https://stackoverflow.com/users/7714132/alzee'},
-				{k: 'upwork', v: 'https://www.upwork.com/o/profiles/users/~01d68058abc4ec7e7e', link: 'https://www.upwork.com/o/profiles/users/~01d68058abc4ec7e7e'},
+				{k: 'upwork', v: 'https://www.upwork.com/freelancers/~01d68058abc4ec7e7e', link: 'https://www.upwork.com/freelancers/~01d68058abc4ec7e7e'},
 				//{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg'},
 				{t: 'IRC', v: 'z14@libera.chat'},
 				{k: 'key', v: 'https://alz.ee/pubkey', link: 'https://alz.ee/pubkey'},
