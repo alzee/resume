@@ -22,7 +22,7 @@
 				//{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg'},
 				{t: 'IRC', v: 'z14@libera.chat'},
 				{k: 'key', v: 'https://alz.ee/pubkey', link: 'https://alz.ee/pubkey'},
-				{k: 'bitcoin-brands', v: '3AnpMLEdLXHa4fiTHGr6iWQrrPB2FRu56m'},
+				{k: 'bitcoin', v: '3AnpMLEdLXHa4fiTHGr6iWQrrPB2FRu56m'},
 			],
 			sn_t: '社交网络',
 			exp_t: '工作经历',
