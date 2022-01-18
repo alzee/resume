@@ -10,7 +10,7 @@
 			role: 'DevOps & 全栈开发 ',
 			about_t: '简 介',
 			about: [
-				{k: 'code', v: 'javascript, php, python, bash, c, assembly'},
+				{k: 'code', v: 'javascript, php, python, bash, rust, javascript'},
 				{k: 'envelope', v: 'job@alz.ee', link: 'mailto:job@alz.ee'},
 				{k: 'desktop', v: 'fedora, i3wm, screen, bash, vim'},
 				{k: 'phone', v: 'Kzg2IDEzMiAwNzI2IDIwMTE='},
