@@ -18,8 +18,8 @@
 <body>
 	<section class="container position-relative">
 		<div class="btn-group btn-group-sm position-absolute" id="chlang">
-			<button class="btn btn-light" id="en">en</button>
-			<button class="btn btn-light" id="zh">zh</button>
+			<button class="btn btn-dark" id="en">en</button>
+			<button class="btn btn-dark" id="zh">zh</button>
 		</div>
 	</section>
 		
@@ -41,7 +41,7 @@
 			<h5>{{role}}</h5>
 		</div>
 
-		<div class="bg-light rounded my-3 py-2 text-center">
+		<div class="bg-dark rounded my-3 py-2 text-center">
 			<strong>{{about_t}}</strong>
 		</div>
 		<div class="mb-3">
@@ -50,8 +50,8 @@
 		<div class="row">
 			{{#proglang}}
 			<div class="col-md-3 mb-2">
-				<div class="progress position-relative">
-					<div class="progress-bar bg-secondary" style="width: {{percent}}"></div>
+				<div class="progress position-relative bg-secondary">
+					<div class="progress-bar bg-dark" style="width: {{percent}}"></div>
 					<span class="position-absolute text-center w-100 align-self-center">{{name}}</span>
 				</div>
 			</div>
@@ -67,12 +67,12 @@
         {{#t}}
         <span>{{t}}</span>
         {{/t}}
-				<a class="text-dark" {{#link}} href="{{link}}" {{/link}}> {{v}} </a>
+				<a class="text-light" {{#link}} href="{{link}}" {{/link}}> {{v}} </a>
 			</div>
 {{/about}}
 		</div>
 		
-		<div class="bg-light rounded my-3 py-2 text-center text">
+		<div class="bg-dark rounded my-3 py-2 text-center text">
 			<strong>{{skills_t}}</strong>
 		</div>
 		<div>
@@ -84,7 +84,7 @@
 		</div>
 
 <!--
-		<div class="bg-light rounded my-3 py-2 text-center">
+		<div class="bg-dark rounded my-3 py-2 text-center">
 			<strong>{{sn_t}}</strong>
 		</div>
 		<div class="d-md-flex justify-content-around">
@@ -95,7 +95,7 @@
 		-->
 
 <!--
-		<div class="bg-light rounded my-3 py-2 text-center text">
+		<div class="bg-dark rounded my-3 py-2 text-center text">
 			<strong>{{edu_t}}</strong>
 		</div>
 		<div class="">
@@ -103,7 +103,7 @@
 		</div>
 -->
 
-		<div class="bg-light rounded my-3 py-2 text-center text">
+		<div class="bg-dark rounded my-3 py-2 text-center text">
 			<strong>{{po_t}}</strong>
 		</div>
 			{{#po}}
@@ -124,7 +124,7 @@
 		</div>
 			{{/po}}
 
-		<div class="bg-light rounded my-3 py-2 text-center text">
+		<div class="bg-dark rounded my-3 py-2 text-center text">
 			<strong>{{exp_t}}</strong>
 		</div>
 		<div>
@@ -139,7 +139,7 @@
 		</div>
 		
 <!--
-		<div class="bg-light rounded my-3 py-2 text-center text">
+		<div class="bg-dark rounded my-3 py-2 text-center text">
 			<strong>{{fun_t}}</strong>
 		</div>
 
@@ -151,7 +151,7 @@
 			</ul>
 		</div>
 
-		<div class="bg-light rounded my-3 py-2 text-center text">
+		<div class="bg-dark rounded my-3 py-2 text-center text">
 			<strong>{{more_t}}</strong>
 		</div>
 		<div class="text-center">
