@@ -8,6 +8,12 @@ body{
   color: #ffffff;
   background-color: #000000;
 }
+#avatar{
+  background-image: url("../img/me.png");
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
 h1{
 	font-size: 2rem;
 }
@@ -17,11 +23,6 @@ img{
 #chlang{
 	top: 0;
 	right: 1rem;
-}
-.progress-bar{
-  /*
-	background-color: #b9bfc5 !important;
-  */
 }
 #more > div{
 	white-space: nowrap;
