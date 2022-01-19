@@ -1,3 +1,5 @@
+import Mustache;
+
 (function() {
     // parses template ahead of time
     var tpl = document.getElementById('tpl').innerHTML;
