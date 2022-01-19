@@ -1,5 +1,3 @@
-import '../node_modules/mustache';
-
 (function() {
     // parses template ahead of time
     var tpl = document.getElementById('tpl').innerHTML;
