@@ -51,7 +51,7 @@
                 'Services: httpd, nginx, mysql/mariadb, redis, nfs, samba, dns, ftp',
                 'Frameworks: symfony, drupal, angular, bootstrap',
                 'Languages: php, bash, python, javascript, typescript, rust, css, html',
-                'Clouds: AWS, GCP, Azure, Vultr, DigitalOcean, Cloudflare',
+                'Clouds: AWS, GCP, Azure, Oracle, Vultr, DigitalOcean, Cloudflare',
                 'Virtualization: KVM, VirtualBox, Docker',
                 'Tools: git, github, ansible, i3wm, screen, vim, npm, composer and more',
 				'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
