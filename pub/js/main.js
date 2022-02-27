@@ -173,17 +173,6 @@
 			],
 			fun_t : '有趣的',
 			fun: [
-                '春节在人迹罕至的青海湖骑行一圈，去之前不会骑自行车',
-                '跑步结婚上头条',
-                '完成一次全程马拉松；完成一次半程马拉松；完成一次山地越野赛',
-                '戒烟；戒酒',
-                '用盗来的 QQ 币给自己买一套警服 QQ 秀，然后留言“请及时修改密码”',
-                '魔兽世界 TBC 时期一区罗宁人称术神；分享宏成为 NGA 热帖',
-				'魔兽世界怀旧服血色无冰箱一波流, b站ID: alz14',
-                '崇尚命令行。bash + screen + vim 作 IDE ，cmus 听歌，用 ImageMagick 压缩图片，用 nmcli 管理网络，用 transmission-remote BT，pacmd 切换耳机音响，gsettings 配置系统，用 oathtool 生成 OTP 动态密码，irssi 上 irc ，只玩 nethack 和 myman ，chrome 装 cVim 扩展，用 i3 替代 gnome	……',
-                '如果一件事要做3次以上，一定要写一个函数/脚本，比如自签名证书，比如用 ssh tunnel 翻墙，比如改 cloudflare 的记录，比如每隔半年安装最新的 Fedora ，然后通过脚本恢复所有设置。(为什么重装？ 不是可以用 dnf 升级么？因为我的系统仅有 1700+ packages ，用 dnf 升级就要 100 分钟。而重装 10 分钟，跑一遍脚本 25 分钟，一起只要 35 分钟。而且，重装才有“新“的感觉。)',
-                '为了使用便捷，常用命令都要用函数封装，函数名一个字母，no more tab 。比如写一个函数 g() 来代替 git ，不带参数就是 git status , g c msg 则是 git add. ; git commit -m msg ; git push，如果没有 msg 就用 placeholder , 还可以加入一些机制来阻止 push 。再比如 alias v="command vim" ; alias vim="sudo vim" 。'
-
 			],
 			more_t : '更 多',
 			more: [
