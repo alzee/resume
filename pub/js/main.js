@@ -10,7 +10,7 @@
 			role: 'DevOps & 全栈开发 ',
 			about_t: '简 介',
 			about: [
-				{k: 'code', v: 'rust, go, php, ruby, python, typescript'},
+				{k: 'code', v: 'rust, go, php, python, typescript'},
 				{k: 'envelope', v: 'job@alz.ee', link: 'mailto:job@alz.ee'},
 				{k: 'desktop', v: 'fedora, i3wm, screen, bash, vim'},
 				{k: 'phone', v: 'Kzg2IDEzMiAwNzI2IDIwMTE='},
@@ -50,7 +50,7 @@
                 'Linux: Fedora, Debian, RHEL/CentOS, LFS. And FreeBSD',
                 'Services: httpd, nginx, mysql/mariadb, redis, nfs, samba, dns, ftp',
                 'Frameworks: symfony, drupal, react, angular, django, gin, rails',
-                'Languages: rust, go, php, ruby, python, typescript',
+                'Languages: rust, go, php, python, typescript',
                 'Clouds: AWS, GCP, Azure, Oracle, Vultr, DigitalOcean, Cloudflare',
                 'Virtualization: KVM, VirtualBox, Docker',
                 'Tools: git, github, ansible, i3wm, screen, vim, npm, composer and more',
