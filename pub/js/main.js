@@ -48,7 +48,7 @@
                 '常用工具：git, github, ansible, i3wm, screen, vim, npm, composer...',
                 '翻译英文技术文档。前 LCTT 成员，为 linux.cn 贡献过多篇翻译',
 			],
-			po_t: '作 品',
+			po_t: '案 例',
 			po: [
                 {
 					name: '某人民法院内网网站',
