@@ -25,7 +25,7 @@
 				{k: 'stack-overflow', v: 'https://stackoverflow.com/users/7714132/alzee', link: 'https://stackoverflow.com/users/7714132/alzee'},
 				{k: 'upwork', v: 'https://www.upwork.com/freelancers/~01d68058abc4ec7e7e', link: 'https://www.upwork.com/freelancers/~01d68058abc4ec7e7e'},
 				//{k: 'btc', v: '1K4PKpaH55iMhvgdpUwhMAh4acAUajd3Mg'},
-				{t: 'IRC', v: 'alzee@libera.chat'},
+				{k: 'libera-chat', v: 'alzee (libera IRC network)'},
 				{k: 'key', v: 'https://alz.ee/pubkey', link: 'https://alz.ee/pubkey'},
 				{k: 'bitcoin', v: '3AnpMLEdLXHa4fiTHGr6iWQrrPB2FRu56m'},
 			],
