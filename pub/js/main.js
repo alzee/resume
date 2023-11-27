@@ -40,7 +40,7 @@
                 yearNow - yearAsPHPDev + ' 年 PHP 开发经验',
                 yearNow - yearAsFullStack + ' 年全栈开发经验',
                 '擅长 *nix 系统：Fedora, Debian, Ubuntu, RHEL/CentOS, FreeBSD, LFS...',
-                '熟悉各项服务：httpd(Apache2), nginx, PostgreSQL, MySQL/MariaDB, Redis, nfs, WireGuard, Samba, dns, TrinityCore, FTP...',
+                '熟悉各项服务：httpd(Apache2), nginx, PostgreSQL, MySQL/MariaDB, Redis, NFS, WireGuard, Samba, DNS, TrinityCore, FTP...',
                 '常用库和框架：Symfony, Drupal, React, Angular, Django, Gin...',
                 '常用语言：rust, go, php, python, typescript, bash, sql',
                 '熟悉的云平台：AWS, GCP, Azure, Oracle, Vultr, DigitalOcean, Cloudflare, 阿里云',
