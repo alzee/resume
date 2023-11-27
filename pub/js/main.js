@@ -15,7 +15,7 @@
 			role: 'DevOps & 全栈开发 ',
 			about_t: '关 于',
 			about: [
-				{k: 'code', v: 'rust, go, php, python, typescript'},
+				{k: 'code', v: 'rust, go, php, python, typescript, bash'},
 				{k: 'envelope', v: 'job@alz.ee', link: 'mailto:job@alz.ee'},
 				{k: 'desktop', v: 'fedora, i3wm, screen, bash, vim'},
 				{k: 'phone', v: 'Kzg2IDEzMiAwNzI2IDIwMTE='},
