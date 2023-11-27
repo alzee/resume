@@ -30,7 +30,6 @@
 				{k: 'bitcoin', v: '3AnpMLEdLXHa4fiTHGr6iWQrrPB2FRu56m'},
 			],
 			sn_t: '社交网络',
-			exp_t: '工作经历',
 			intro: '擅长 *nix 系统，多年 DevOps 经验，熟悉全栈开发。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
@@ -48,24 +47,6 @@
                 '虚拟化技术：KVM, VirtualBox, Docker',
                 '常用工具：git, github, ansible, i3wm, screen, vim, npm, composer...',
                 '翻译英文技术文档。前 LCTT 成员，为 linux.cn 贡献过多篇翻译',
-			],
-			exps: [
-				{
-					com: '创业，2016.5-至今，合伙人、程序员',
-					job: '软件外包，系统开发、APP'
-				},
-				{
-					com: '上海快鹿集团，2014.7-2015.11，运维工程师',
-					job: '网络配置、服务器架设、服务安装和配置、优化；业务系统的管理与维护，性能监控、调优，故障诊断以及数据库维护与备份计划；内部测试环境搭建'
-				},
-				{
-					com: '广州景心科技，2013.4-2014.6，项目经理',
-					job: '招商银行上海信用卡中心驻场，负责招行机房管理系统的研发、测试、实施、服务器维护以及电子化流程部署'
-				},
-				{
-					com: '中百仓储，2010.11-2013.3，技术部长',
-					job: '各卖场路由器、交换机、收银系统、电子称、服务器、网络、桌面、门禁、考勤等安装调试及后期维护；ERP系统管理及维护，进销存数据分析，报表制作；员工信息化培训'
-				},
 			],
 			po_t: '作 品',
 			po: [
@@ -163,7 +144,6 @@
 	resume.en.about_t = 'about';
 	resume.en.skills_t = 'skills';
 	resume.en.sn_t = 'social network';
-	resume.en.exp_t = 'experiences';
 	resume.en.devenv_t = 'devel env: ';
 	resume.en.proglang_t = 'language: ';
 	resume.en.po_t = 'portfolio';
