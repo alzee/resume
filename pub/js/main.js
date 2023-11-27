@@ -2,6 +2,12 @@
   // parses template ahead of time
   let tpl = document.getElementById('tpl').innerHTML;
   Mustache.parse(tpl);
+  let yearAsAdmin = 2011;
+  let yearAsDevOps = 2017;
+  let yearAsPHPDev = 2015;
+  let yearAsFullStack = 2018;
+  let yearNow = new Date().getFullYear();
+  console.log(yearNow);
 
 	let resume = {
 		zh: {
@@ -31,10 +37,10 @@
 			devenv: 'bash, screen, vim, Fedora',
 			skills_t: '技 能',
 			skills: [
-                '8+ years as SysAdmin',
-                '4+ years as DevOps',
-                '5+ years as PHP Developer',
-                '3+ years as Full Stack Developer',
+                yearNow - yearAsAdmin + '+ years as SysAdmin',
+                yearNow - yearAsDevOps + '+ years as DevOps',
+                yearNow - yearAsPHPDev + '+ years as PHP Developer',
+                yearNow - yearAsFullStack + '+ years as Full Stack Developer',
                 'Linux: Fedora, Debian, RHEL/CentOS, LFS. And FreeBSD',
                 'Services: httpd, nginx, mysql/mariadb, redis, nfs, samba, dns, ftp',
                 'Frameworks: symfony, drupal, react, angular, django, gin',
