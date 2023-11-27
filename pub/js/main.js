@@ -148,9 +148,6 @@
 					]
 				},
 			],
-			fun_t : '有趣的',
-			fun: [
-			],
 			more_t : '更 多',
 			more: [
 			],
@@ -171,7 +168,6 @@
 	resume.en.proglang_t = 'language: ';
 	resume.en.po_t = 'portfolio';
 	//resume.en.about.loc.v= 'remote, startups, hangzhou, shanghai';
-	resume.en.fun_t = 'fun';
 	resume.en.more_t = 'more';
   resume.en.skills = [
     yearNow - yearAsAdmin + '+ years as SysAdmin',
