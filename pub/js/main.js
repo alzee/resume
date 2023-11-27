@@ -30,17 +30,6 @@
 			intro: '擅长 *nix 系统，多年 DevOps 经验，熟悉全栈开发。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
-			proglang_t: '语言： ',
-			proglang: [
-				{name: 'javascript', percent: '60%'},
-				{name: 'php', percent: '80%'},
-				{name: 'python', percent: '40%'},
-				{name: 'bash', percent: '85%'},
-				{name: 'drupal', percent: '70%'},
-				{name: 'symfony', percent: '60%'},
-				{name: 'bootstrap', percent: '90%'},
-				{name: 'sql', percent: '55%'},
-			],
 			skills_t: '技 能',
 			skills: [
                 '8+ years as SysAdmin',
