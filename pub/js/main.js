@@ -26,7 +26,6 @@
 			],
 			sn_t: '社交网络',
 			exp_t: '工作经历',
-			edu_t: '教育经历',
 			intro: '擅长 *nix 系统，多年 DevOps 经验，熟悉全栈开发。',
 			devenv_t: '开发环境: ',
 			devenv: 'bash, screen, vim, Fedora',
@@ -164,12 +163,10 @@
 	resume.en.skills_t = 'skills';
 	resume.en.sn_t = 'social network';
 	resume.en.exp_t = 'experiences';
-	resume.en.edu_t = 'education';
 	resume.en.devenv_t = 'devel env: ';
 	resume.en.proglang_t = 'language: ';
 	resume.en.po_t = 'portfolio';
 	//resume.en.about.loc.v= 'remote, startups, hangzhou, shanghai';
-	//resume.en.edu = 'self-taught';
 	resume.en.fun_t = 'fun';
 	resume.en.more_t = 'more';
 
