@@ -7,7 +7,6 @@
   let yearAsPHPDev = 2015;
   let yearAsFullStack = 2018;
   let yearNow = new Date().getFullYear();
-  console.log(yearNow);
 
 	let resume = {
 		zh: {
@@ -37,18 +36,18 @@
 			devenv: 'bash, screen, vim, Fedora',
 			skills_t: '技 能',
 			skills: [
-                yearNow - yearAsAdmin + '+ years as SysAdmin',
-                yearNow - yearAsDevOps + '+ years as DevOps',
-                yearNow - yearAsPHPDev + '+ years as PHP Developer',
-                yearNow - yearAsFullStack + '+ years as Full Stack Developer',
-                'Linux: Fedora, Debian, RHEL/CentOS, LFS. And FreeBSD',
-                'Services: httpd, nginx, mysql/mariadb, redis, nfs, samba, dns, ftp',
-                'Frameworks: symfony, drupal, react, angular, django, gin',
-                'Languages: rust, go, php, python, typescript, bash, sql',
-                'Clouds: AWS, GCP, Azure, Oracle, Vultr, DigitalOcean, Cloudflare',
-                'Virtualization: KVM, VirtualBox, Docker',
-                'Tools: git, github, ansible, i3wm, screen, vim, npm, composer and more',
-                'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
+                yearNow - yearAsAdmin + ' 年运维经验',
+                yearNow - yearAsDevOps + ' 年 DevOps 经验',
+                yearNow - yearAsPHPDev + ' 年 PHP 开发经验',
+                yearNow - yearAsFullStack + ' 年全栈开发经验',
+                '擅长 *nix 系统：Fedora, Debian, Ubuntu, RHEL/CentOS, FreeBSD, LFS...',
+                '熟悉各项服务：httpd(Apache2), nginx, PostgreSQL, MySQL/MariaDB, Redis, nfs, WireGuard, Samba, dns, TrinityCore, FTP...',
+                '常用库和框架：Symfony, Drupal, React, Angular, Django, Gin...',
+                '常用语言：rust, go, php, python, typescript, bash, sql',
+                '熟悉的云平台：AWS, GCP, Azure, Oracle, Vultr, DigitalOcean, Cloudflare, 阿里云',
+                '虚拟化技术：KVM, VirtualBox, Docker',
+                '常用工具：git, github, ansible, i3wm, screen, vim, npm, composer...',
+                '翻译英文技术文档。前 LCTT 成员，为 linux.cn 贡献过多篇翻译',
 			],
 			exps: [
 				{
@@ -174,6 +173,20 @@
 	//resume.en.about.loc.v= 'remote, startups, hangzhou, shanghai';
 	resume.en.fun_t = 'fun';
 	resume.en.more_t = 'more';
+  resume.en.skills = [
+    yearNow - yearAsAdmin + '+ years as SysAdmin',
+    yearNow - yearAsDevOps + '+ years as DevOps',
+    yearNow - yearAsPHPDev + '+ years as PHP Developer',
+    yearNow - yearAsFullStack + '+ years as Full Stack Developer',
+    'Linux: Fedora, Debian, RHEL/CentOS, LFS. And FreeBSD',
+    'Services: httpd, nginx, mysql/mariadb, redis, nfs, samba, dns, ftp',
+    'Frameworks: symfony, drupal, react, angular, django, gin',
+    'Languages: rust, go, php, python, typescript, bash, sql',
+    'Clouds: AWS, GCP, Azure, Oracle, Vultr, DigitalOcean, Cloudflare',
+    'Virtualization: KVM, VirtualBox, Docker',
+    'Tools: git, github, ansible, i3wm, screen, vim, npm, composer and more',
+    'Tech articles translation',
+  ];
 
 	let lang = (navigator.language || navigator.userLanguage).substr(0, 2);
 	if (lang !== 'zh') lang = 'en';
