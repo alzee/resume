@@ -73,23 +73,11 @@
 		<div class="bg-dark rounded my-3 py-2 text-center text">
 			<strong>{{po_t}}</strong>
 		</div>
+			<ul class="pl-3">
 			{{#po}}
-		<div class="mb-4">
-			<p class="mb-0"><strong>{{name}}, {{date}}</strong></p>
-			<p class="mb-0">项目描述</p>
-			<ul class="pl-3 mb-0">
-			{{#desc}}
 				<li>{{.}}</li>
-			{{/desc}}
-			</ul>
-			<p class="mb-0">职责描述</p>
-			<ul class="pl-3 mb-0">
-			{{#job}}
-				<li>{{.}}</li>
-			{{/job}}
-			</ul>
-		</div>
 			{{/po}}
+			</ul>
 	</script>
 
 	<script src="js/mustache.min.js"></script>
