@@ -129,9 +129,6 @@
 					]
 				},
 			],
-			more_t : '更 多',
-			more: [
-			],
 		},
 	};
 	
@@ -141,14 +138,13 @@
 	resume.en.name = 'Al Zee';
 	resume.en.role = 'DevOps Engineering & Full Stack Development';
 	resume.en.intro= 'Self-motivated DevOps engineer with strong professional ethics and enthusiasm. Also experienced in Full-stack development.';
-	resume.en.about_t = 'about';
-	resume.en.skills_t = 'skills';
+	resume.en.about_t = 'ABOUT';
+	resume.en.skills_t = 'SKILLS';
 	resume.en.sn_t = 'social network';
 	resume.en.devenv_t = 'devel env: ';
 	resume.en.proglang_t = 'language: ';
-	resume.en.po_t = 'portfolio';
+	resume.en.po_t = 'PORTFOLIO';
 	//resume.en.about.loc.v= 'remote, startups, hangzhou, shanghai';
-	resume.en.more_t = 'more';
   resume.en.skills = [
     yearNow - yearAsAdmin + '+ years as SysAdmin',
     yearNow - yearAsDevOps + '+ years as DevOps',
@@ -160,7 +156,7 @@
     'Languages: rust, go, php, python, typescript, bash, sql',
     'Clouds: AWS, GCP, Azure, Oracle, Vultr, DigitalOcean, Cloudflare',
     'Virtualization: KVM, VirtualBox, Docker',
-    'Tools: git, github, ansible, i3wm, screen, vim, npm, composer and more',
+    'Tools: git, github, ansible, i3wm, screen, vim, npm, composer...',
     'Tech articles translation',
   ];
 
