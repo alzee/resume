@@ -11,7 +11,7 @@
 	let resume = {
 		zh: {
 			title: '简 历',
-			name: 'Al Zee',
+			name: '侯斐 (Al Zee)',
 			role: 'DevOps & 全栈开发 ',
 			about_t: '关 于',
 			about: [
