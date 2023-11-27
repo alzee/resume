@@ -49,7 +49,6 @@
                 'Virtualization: KVM, VirtualBox, Docker',
                 'Tools: git, github, ansible, i3wm, screen, vim, npm, composer and more',
                 'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
-                '马拉松 & 环青海湖骑行',
 			],
 			exps: [
 				{
