@@ -8,7 +8,7 @@
 			title: '简 历',
 			name: 'Al Zee',
 			role: 'DevOps & 全栈开发 ',
-			about_t: '简 介',
+			about_t: '关 于',
 			about: [
 				{k: 'code', v: 'rust, go, php, python, typescript'},
 				{k: 'envelope', v: 'job@alz.ee', link: 'mailto:job@alz.ee'},
