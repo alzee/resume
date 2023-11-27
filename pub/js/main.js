@@ -1,9 +1,9 @@
 (function() {
-    // parses template ahead of time
-    var tpl = document.getElementById('tpl').innerHTML;
-    Mustache.parse(tpl);
+  // parses template ahead of time
+  let tpl = document.getElementById('tpl').innerHTML;
+  Mustache.parse(tpl);
 
-	var resume = {
+	let resume = {
 		zh: {
 			title: '简 历',
 			name: 'Al Zee',
@@ -49,12 +49,12 @@
                 '3+ years as Full Stack Developer',
                 'Linux: Fedora, Debian, RHEL/CentOS, LFS. And FreeBSD',
                 'Services: httpd, nginx, mysql/mariadb, redis, nfs, samba, dns, ftp',
-                'Frameworks: symfony, drupal, react, angular, django, gin, rails',
-                'Languages: rust, go, php, python, typescript',
+                'Frameworks: symfony, drupal, react, angular, django, gin',
+                'Languages: rust, go, php, python, typescript, bash, sql',
                 'Clouds: AWS, GCP, Azure, Oracle, Vultr, DigitalOcean, Cloudflare',
                 'Virtualization: KVM, VirtualBox, Docker',
                 'Tools: git, github, ansible, i3wm, screen, vim, npm, composer and more',
-        'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
+                'LCTT ( linux.cn 翻译组) 成员，为 linux.cn 贡献过多篇英文翻译',
                 '马拉松 & 环青海湖骑行',
 			],
 			exps: [
@@ -74,21 +74,6 @@
 					com: '中百仓储，2010.11-2013.3，技术部长',
 					job: '各卖场路由器、交换机、收银系统、电子称、服务器、网络、桌面、门禁、考勤等安装调试及后期维护；ERP系统管理及维护，进销存数据分析，报表制作；员工信息化培训'
 				},
-				// {
-				// 	com: '蓝星电脑，2006.11-2010.10，技术支持',
-				// 	job: '软硬件、网络、弱电项目销售、安装与维护'
-				// }
-			],
-			edu: '自学。大专肆业，非计算机专业，无培训经历',
-			sns: [
-				{name: 'alzee', link: 'https://github.com/alzee', fa: 'fab fa-github'},
-				{name: 'alzee', link: 'https://stackoverflow.com/users/7714132', fa: 'fab fa-stack-overflow'},
-				{name: 'alzee', link: 'https://webchat.freenode.net', fa: 'fas fa-hashtag'},
-				{name: 'Arc-Zee', link: 'https://www.quora.com/profile/Arc-Zee', fa: 'fab fa-quora'},
-				{name: 'ArcTod', link: 'https://twitter.com/arctod', fa: 'fab fa-twitter'},
-				{name: 'ArcTod', link: 'https://www.facebook.com/ArcTod', fa: 'fab fa-facebook'},
-				{name: 'ArcZee', link: 'https://www.linkedin.com/in/alzee/', fa: 'fab fa-linkedin'},
-				//{name: 'dotcra', link: '#', fa: 'fab fa-weixin'},
 			],
 			po_t: '作 品',
 			po: [
@@ -199,15 +184,15 @@
 	resume.en.fun_t = 'fun';
 	resume.en.more_t = 'more';
 
-	var lang = (navigator.language || navigator.userLanguage).substr(0, 2);
+	let lang = (navigator.language || navigator.userLanguage).substr(0, 2);
 	if (lang !== 'zh') lang = 'en';
-	var en = document.getElementById('en');
-	var zh = document.getElementById('zh');
+	let en = document.getElementById('en');
+	let zh = document.getElementById('zh');
 	en.addEventListener('click', ch);
 	zh.addEventListener('click', ch);
 
-    var title = document.getElementById('title');
-    var main = document.getElementById('main');
+  let title = document.getElementById('title');
+  let main = document.getElementById('main');
     
 	ch(lang);
 
