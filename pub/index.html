@@ -58,6 +58,17 @@
 			</div>
 {{/about}}
 		</div>
+
+		<div class="bg-dark rounded my-3 py-2 text-center text">
+			<strong>{{capable_t}}</strong>
+		</div>
+		<div>
+			<ul class="pl-3">
+				{{#capable}}
+				<li>{{.}}</li>
+				{{/capable}}
+			</ul>
+		</div>
 		
 		<div class="bg-dark rounded my-3 py-2 text-center text">
 			<strong>{{skills_t}}</strong>
