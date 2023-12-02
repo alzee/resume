@@ -36,7 +36,7 @@
 			capable_t: '我能为您',
 			capable: [
         '开发：APP、小程序、个人网站、企业官网、业务系统、桌面工具...',
-        '部署：网页服务器、邮件服务器、VPN服务、数据库、共享、代理、反向代理、缓存、队列、负载均衡、自动化、CI/CD...',
+        '部署：网页服务器、邮件服务器、数据库、共享、代理、反向代理、VPN、缓存、队列、负载均衡、自动化、CI/CD...',
         '提供：Linux 系统支持、配置、优化...',
         '设计：IT 解决方案，规划工作流程',
       ],
@@ -52,7 +52,6 @@
         '常用语言：rust, go, php, python, typescript, bash, sql',
         '熟悉的云平台：AWS, GCP, Azure, Oracle, Vultr, DigitalOcean, Cloudflare, 阿里云',
         '虚拟化技术：KVM, VirtualBox, LXC, Docker',
-        '常用工具：git, github, ansible, i3wm, screen, vim, npm, composer...',
         '翻译英文技术文档。前 LCTT 成员，为 linux.cn 贡献过多篇翻译',
 			],
 			po_t: '案 例',
