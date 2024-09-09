@@ -101,7 +101,12 @@
 				{{com}}
 			</div>
 			<div class="mb-3">
-				{{job}}
+        <ul class="pl-3">
+        {{#job}}
+          <li>{{.}}</li>
+        {{/job}}
+        </ul>
+
 			</div>
 			{{/exps}}
 		</div>
