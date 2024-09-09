@@ -84,11 +84,28 @@
 		<div class="bg-dark rounded my-3 py-2 text-center text">
 			<strong>{{po_t}}</strong>
 		</div>
+		<div>
 			<ul class="pl-3">
 			{{#po}}
 				<li>{{.}}</li>
 			{{/po}}
 			</ul>
+		</div>
+
+		<div class="bg-dark rounded my-3 py-2 text-center text">
+			<strong>{{exp_t}}</strong>
+		</div>
+		<div>
+			{{#exps}}
+			<div>
+				{{com}}
+			</div>
+			<div class="mb-3">
+				{{job}}
+			</div>
+			{{/exps}}
+		</div>
+		
 	</script>
 
 	<script src="js/mustache.min.js"></script>
