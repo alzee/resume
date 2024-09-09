@@ -51,7 +51,7 @@
         '常用语言：rust, go, php, python, typescript, bash, sql',
         '熟悉的云平台：AWS, GCP, Azure, Oracle, Vultr, DigitalOcean, Cloudflare, 阿里云',
         '虚拟化技术：KVM, VirtualBox, Docker',
-        // '翻译英文技术文档。前 LCTT 成员，为 linux.cn 贡献过多篇翻译',
+        '英文：为LCTT(linux.cn翻译组) 贡献过多篇Linux相关英文翻译',
 			],
 			po_t: '案 例',
 			po: [
